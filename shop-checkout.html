@@ -1,0 +1,1212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Auto Grid</title>
+<link href="assets/css/bootstrap.css" rel="stylesheet">
+<link href="assets/css/bootstrap-theme.css" rel="stylesheet">
+<link href="assets/css/iconmoon.css" rel="stylesheet">
+<link href="style.css" rel="stylesheet">
+<link href="cs-automobile-plugin.css" rel="stylesheet">
+<link href="assets/css/color.css" rel="stylesheet">
+<link href="assets/css/bootstrap-slider.css" rel="stylesheet">
+<link href="assets/css/jquery.mCustomScrollbar.css" rel="stylesheet">
+<link href="assets/css/chosen.css" rel="stylesheet">
+<link href="assets/css/widget.css" rel="stylesheet">
+<link href="assets/css/responsive.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<!-- <link href="assets/css/bootstrap-rtl.css" rel="stylesheet">  -->
+
+<script src="assets/scripts/jquery.js"></script>
+<script src="assets/scripts/modernizr.js"></script>
+<script src="assets/scripts/bootstrap.min.js"></script>
+</head>
+<body class="wp-automobile">
+<div class="wrapper"> 
+	<!-- Header Start -->
+	<header id="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+					<div class="cs-logo">
+						<div class="cs-media">
+							<figure><a href="index.html"><img src="assets/images/cs-logo.png" alt="" /></a></figure>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-10 col-md-10 col-sm-12 col-xs-12">
+					<div class="cs-main-nav pull-right">
+						<nav class="main-navigation">
+							<ul>
+								<li><a href="index.html">Home</a></li>
+								<li><a href="about-us.html">About Us</a></li>
+								<li><a href="auto-grid.html">Inventory</a>
+									<ul>
+										<li><a href="auto-listing.html">Lookup For Cars</a></li>
+									</ul>
+								</li>
+								<li><a href="agent-listing.html">Dealers</a></li>
+								<li><a href="compare.html">Compare</a></li>
+								<li><a href="price-plane.html">pages</a>
+									<ul>
+										<li><a href="services.html">Our Services</a></li>
+										<li><a href="user-post-new-vehicles.html">Post a Vehicle</a></li>
+										<li><a href="price-plane.html">Listing Packages</a></li>
+										<li><a href="faq.html">FAQ's & Help</a></li>
+										<li><a href="404.html">404 Page</a></li>
+										<li><a href="search-result.html">Search Result</a></li>
+										<li><a href="signin-page.html">Signup/Sign in</a></li>
+										
+									</ul>
+								</li>
+								<li><a href="contact-us.html">Contact</a></li>
+								<li class="active"><a href="shop-listing.html">Shop</a>
+									<ul>
+										<li><a href="shop-listing.html">Products</a></li>
+										<li><a href="shop-cart.html">Cart</a></li>
+										<li class="active"><a href="shop-checkout.html" class="main-link">Checkout</a></li>
+									</ul>
+								</li>
+								<style>
+									li.active .main-link:hover {
+									color: white!important;
+									}
+
+								</style>
+								<li class="cs-user-option">
+									<div class="cs-login">
+										<div class="cs-login-dropdown"> <a href="user-genral-setting.html"><i class="icon-user2"></i> Ayo <i class="icon-chevron-down2"></i></a>
+											<div class="cs-user-dropdown"> <strong>My Account</strong>
+												<ul>
+													<li><a href="user-genral-setting.html">ACCOUNT SETTING<span class="cs-bgcolor">3</span></a></li>
+													<li><a href="user-car-listing.html">MY POSTED CARS <span class="cs-bgcolor">23</span></a></li>
+													<li><a href="user-post-new-vehicles.html">POST NEW CAR</a></li>
+													<li><a href="user-car-shortlist.html">SHORTLISTED</a></li>
+													<li><a href="user-payments.html">PAYMENT</a></li>
+													<li><a href="user-packages.html">PACKAGES</a></li>
+												</ul>
+												<a class="btn-sign-out" href="#">LOGOUT</a> </div>
+										</div>
+										<a class="cs-bgcolor btn-form" data-toggle="modal" href="http://chimpgroup.com/themeforest/automobile/remote.html" data-target="#user-sign-up" aria-hidden="true"><i class="icon-plus"></i> Sell Car</a> 
+										<!-- Modal -->
+										<div class="modal fade" id="user-sign-up" tabindex="-1" role="dialog">
+											<div class="modal-dialog" role="document">
+												<div class="modal-content" style="line-height: 22px;">
+													<div class="modal-header">
+														<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+													</div>
+													<div class="modal-body">
+														<h4>Create Account</h4>
+														<div class="cs-login-form">
+															<form>
+																<div class="input-holder">
+																	<label for="cs-username"> <strong>USERNAME</strong> <i class="icon-user-plus2"></i>
+																		<input type="text" class="" id="cs-username" placeholder="Type desired username">
+																	</label>
+																</div>
+																<div class="input-holder">
+																	<label for="cs-email"> <strong>Email</strong> <i class="icon-envelope"></i>
+																		<input type="email" class="" id="cs-email" placeholder="Input email">
+																	</label>
+																</div>
+																<div class="input-holder">
+																	<label for="cs-login-password"> <strong>Password</strong> <i class="icon-unlock40"></i>
+																		<input type="password" id="cs-login-password" placeholder="******">
+																	</label>
+																</div>
+																<div class="input-holder">
+																	<label for="cs-confirm-password"> <strong>confirm password</strong> <i class="icon-unlock40"></i>
+																		<input type="password" id="cs-confirm-password" placeholder="******">
+																	</label>
+																</div>
+																<div class="input-holder">
+																	<input class="cs-color csborder-color" type="submit" value="Create Account">
+																</div>
+															</form>
+														</div>
+													</div>
+													<div class="modal-footer"> <a data-dismiss="modal" data-target="#user-sign-in" data-toggle="modal" href="javascript:;" aria-hidden="true">Already have account</a>
+														<div class="cs-separator"><span>or</span></div>
+														<div class="cs-user-social"> <em>Signin with your Social Networks</em>
+															<ul>
+																<li><a href="#" data-original-title="facebook"><i class="icon-facebook-f"></i>facebook</a></li>
+																<li><a href="#" data-original-title="twitter"><i class="icon-twitter4"></i>twitter</a></li>
+																<li><a href="#" data-original-title="google-plus"><i class="icon-google4"></i>google</a></li>
+															</ul>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="modal fade" id="user-sign-in" tabindex="-1" role="dialog">
+											<div class="modal-dialog" role="document">
+												<div class="modal-content">
+													<div class="modal-header">
+														<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+													</div>
+													<div class="modal-body">
+														<h4>User Sign in</h4>
+														<div class="cs-login-form">
+															<form>
+																<div class="input-holder">
+																	<label for="cs-username-1"> <strong>USERNAME</strong> <i class="icon-user-plus2"></i>
+																		<input type="text" class="" id="cs-username-1" placeholder="Input username">
+																	</label>
+																</div>
+																<div class="input-holder">
+																	<label for="cs-login-password-1"> <strong>Password</strong> <i class="icon-unlock40"></i>
+																		<input type="password" id="cs-login-password-1" placeholder="******">
+																	</label>
+																</div>
+																<div class="input-holder"> <a class="btn-forgot-pass" data-dismiss="modal" data-target="#user-forgot-pass" data-toggle="modal" href="javascript:;" aria-hidden="true"><i class=" icon-question-circle"></i> Forgot password?</a> </div>
+																<div class="input-holder">
+																	<input class="cs-color csborder-color" type="submit" value="SIGN IN">
+																</div>
+															</form>
+														</div>
+													</div>
+													<div class="modal-footer">
+														<div class="cs-separator"><span>or</span></div>
+														<div class="cs-user-social"> <em>Signin with your Social Networks</em>
+															<ul>
+																<li><a href="#" data-original-title="facebook"><i class="icon-facebook-f"></i>facebook</a></li>
+																<li><a href="#" data-original-title="twitter"><i class="icon-twitter4"></i>twitter</a></li>
+																<li><a href="#" data-original-title="google-plus"><i class="icon-google4"></i>google</a></li>
+															</ul>
+														</div>
+														<div class="cs-user-signup"> <i class="icon-user-plus2"></i> <strong>Not a Member yet? </strong> <a class="cs-color" data-dismiss="modal" data-target="#user-sign-up" data-toggle="modal" href="javascript:;" aria-hidden="true">Signup Now</a> </div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="modal fade" id="user-forgot-pass" tabindex="-1" role="dialog">
+											<div class="modal-dialog" role="document">
+												<div class="modal-content">
+													<div class="modal-header">
+														<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+													</div>
+													<div class="modal-body">
+														<h4>Password Recovery</h4>
+														<div class="cs-login-form">
+															<form>
+																<div class="input-holder">
+																	<label for="cs-email-1"> <strong>Email</strong> <i class="icon-envelope"></i>
+																		<input type="email" class="" id="cs-email-1" placeholder="Input email">
+																	</label>
+																</div>
+																<div class="input-holder">
+																	<input class="cs-color csborder-color" type="submit" value="Send">
+																</div>
+															</form>
+														</div>
+													</div>
+													<div class="modal-footer">
+														<div class="cs-user-signup"> <i class="icon-user-plus2"></i> <strong>Not a Member yet? </strong> <a href="javascript:;" data-toggle="modal" data-target="#user-sign-up" data-dismiss="modal" class="cs-color" aria-hidden="true">Signup Now</a> </div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									
+								</li>
+							</ul>
+						</nav>
+						<div class="cs-user-option hidden-lg visible-sm visible-xs">
+							<div class="cs-login">
+								<div class="cs-login-dropdown"> <a href="user-genral-setting.html"><i class="icon-user2"></i> Ayo <i class="icon-chevron-down2"></i></a>
+									<div class="cs-user-dropdown"> <strong>My Account</strong>
+										<ul>
+											<li><a href="user-genral-setting.html">ACCOUNT SETTING<span class="cs-bgcolor">3</span></a></li>
+											<li><a href="user-car-listing.html">MY POSTED CARS <span class="cs-bgcolor">23</span></a></li>
+											<li><a href="user-post-new-vehicles.html">BUY OR SELL CAR</a></li>
+											<li><a href="user-car-shortlist.html">SHORTLISTED</a></li>
+											<li><a href="user-payments.html">PAYMENT</a></li>
+											<li><a href="user-packages.html">PACKAGES</a></li>
+										</ul>
+										<a class="btn-sign-out" href="#">LOGOUT</a> </div>
+								</div>
+								<a class="cs-bgcolor btn-form" data-toggle="modal" href="http://chimpgroup.com/themeforest/automobile/remote.html" data-target="#user-sign-up-sm" aria-hidden="true"><i class="icon-plus"></i> Sell Car</a> 
+								<!-- Modal -->
+								<div class="modal fade" id="user-sign-up-sm" tabindex="-1" role="dialog">
+									<div class="modal-dialog" role="document">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+											</div>
+											<div class="modal-body">
+												<h4>Create Account</h4>
+												<div class="cs-login-form">
+													<form>
+														<div class="input-holder">
+															<label for="cs-username11"> <strong>USERNAME</strong> <i class="icon-user-plus2"></i>
+																<input type="text" class="" id="cs-username11" placeholder="Type desired username">
+															</label>
+														</div>
+														<div class="input-holder">
+															<label for="cs-email11"> <strong>Email</strong> <i class="icon-envelope"></i>
+																<input type="email" class="" id="cs-email11" placeholder="Input email">
+															</label>
+														</div>
+														<div class="input-holder">
+															<label for="cs-login-password11"> <strong>Password</strong> <i class="icon-unlock40"></i>
+																<input type="password" id="cs-login-password11" placeholder="******">
+															</label>
+														</div>
+														<div class="input-holder">
+															<label for="cs-confirm-password11"> <strong>confirm password</strong> <i class="icon-unlock40"></i>
+																<input type="password" id="cs-confirm-password11" placeholder="******">
+															</label>
+														</div>
+														<div class="input-holder">
+															<input class="cs-color csborder-color" type="submit" value="Create Account">
+														</div>
+													</form>
+												</div>
+											</div>
+											<div class="modal-footer"> <a data-dismiss="modal" data-target="#user-sign-in-sm" data-toggle="modal" href="javascript:;" aria-hidden="true">Already have account</a>
+												<div class="cs-separator"><span>or</span></div>
+												<div class="cs-user-social"> <em>Signin with your Social Networks</em>
+													<ul>
+														<li><a href="#" data-original-title="facebook"><i class="icon-facebook-f"></i>facebook</a></li>
+														<li><a href="#" data-original-title="twitter"><i class="icon-twitter4"></i>twitter</a></li>
+														<li><a href="#" data-original-title="google-plus"><i class="icon-google4"></i>google</a></li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="modal fade" id="user-sign-in-sm" tabindex="-1" role="dialog">
+									<div class="modal-dialog" role="document">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+											</div>
+											<div class="modal-body">
+												<h4>User Sign in</h4>
+												<div class="cs-login-form">
+													<form>
+														<div class="input-holder">
+															<label for="cs-username-111"> <strong>USERNAME</strong> <i class="icon-user-plus2"></i>
+																<input type="text" class="" id="cs-username-111" placeholder="Input username">
+															</label>
+														</div>
+														<div class="input-holder">
+															<label for="cs-login-password-111"> <strong>Password</strong> <i class="icon-unlock40"></i>
+																<input type="password" id="cs-login-password-111" placeholder="******">
+															</label>
+														</div>
+														<div class="input-holder"> <a class="btn-forgot-pass" data-dismiss="modal" data-target="#user-forgot-pass-sm" data-toggle="modal" href="javascript:;" aria-hidden="true"><i class=" icon-question-circle"></i> Forgot password?</a> </div>
+														<div class="input-holder">
+															<input class="cs-color csborder-color" type="submit" value="SIGN IN">
+														</div>
+													</form>
+												</div>
+											</div>
+											<div class="modal-footer">
+												<div class="cs-separator"><span>or</span></div>
+												<div class="cs-user-social"> <em>Signin with your Social Networks</em>
+													<ul>
+														<li><a href="#" data-original-title="facebook"><i class="icon-facebook-f"></i>facebook</a></li>
+														<li><a href="#" data-original-title="twitter"><i class="icon-twitter4"></i>twitter</a></li>
+														<li><a href="#" data-original-title="google-plus"><i class="icon-google4"></i>google</a></li>
+													</ul>
+												</div>
+												<div class="cs-user-signup"> <i class="icon-user-plus2"></i> <strong>Not a Member yet? </strong> <a class="cs-color" data-dismiss="modal" data-target="#user-sign-up-sm" data-toggle="modal" href="javascript:;" aria-hidden="true">Signup Now</a> </div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="modal fade" id="user-forgot-pass-sm" tabindex="-1" role="dialog">
+									<div class="modal-dialog" role="document">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+											</div>
+											<div class="modal-body">
+												<h4>Password Recovery</h4>
+												<div class="cs-login-form">
+													<form>
+														<div class="input-holder">
+															<label for="cs-email-111"> <strong>Email</strong> <i class="icon-envelope"></i>
+																<input type="email" class="" id="cs-email-111" placeholder="Input email">
+															</label>
+														</div>
+														<div class="input-holder">
+															<input class="cs-color csborder-color" type="submit" value="Send">
+														</div>
+													</form>
+												</div>
+											</div>
+											<div class="modal-footer">
+												<div class="cs-user-signup"> <i class="icon-user-plus2"></i> <strong>Not a Member yet? </strong> <a href="javascript:;" data-toggle="modal" data-target="#user-sign-up-sm" data-dismiss="modal" class="cs-color" aria-hidden="true">Signup Now</a> </div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- Header End -->
+	<style>
+		.cs-user-option .cs-login .cs-login-form .input-holder input[type="submit"]:hover {
+			background-color: #d00000!important;
+			color: white!important;
+			border: 1px solid white;
+		}
+		.cs-user-option .cs-login .btn-form:hover {
+			background-color: white!important;
+			color: #d00000!important;
+			border: 1px solid #d00000;
+		}
+		.cs-user-option .cs-login .btn-form {
+								border: 1px solid #d00000;
+		}
+		.main-navigation ul .cs-user-option a:hover {
+			text-decoration: auto!important;
+			color: white!important;
+		}
+		.cs-user-option .cs-login .cs-user-dropdown .btn-sign-out {
+		padding: 5px 0 5px;
+		border: 1px solid #d00000;
+		}
+		.cs-user-option .cs-login .cs-user-dropdown .btn-sign-out:hover {
+			background-color: #d00000!important;
+			color: white!important;
+			border: 1px solid #d00000;
+		}
+	</style> 
+	<!-- Main Start -->
+	<div class="main-section"> 
+	 <div class="page-section">
+	   <div class="container">
+	     <div class="row">
+	       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+	         <div class="woocommerce">
+	           <div class="woocommerce-info">
+	            <span class="cs-color">Informational.</span>
+	            Returning customer?
+                 <a data-dismiss="modal" class="showlogin cs-color" data-target="#user-sign-in" data-toggle="modal" href="javascript:;" aria-hidden="true">Click here to login</a>
+	           </div>
+	           <form class="checkout woocommerce-checkout row" id="checkout-form">
+				<div id="customer_details" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+				  <div class="col2-set">
+					<div class="woocommerce-billing-fields">
+					  <h4>Billing Details</h4>
+			  
+					  <p class="form-row form-row-first validate-required">
+						<label for="billing_first_name">First Name <abbr title="required" class="required">*</abbr></label>
+						<input type="text" id="billing_first_name" name="billing_first_name" placeholder="John" class="input-text" required>
+						<span id="error-billing_first_name" class="error-message" style="color:red; display:none;">This field is required</span>
+					  </p>
+			  
+					  <p class="form-row form-row-last validate-required">
+						<label for="billing_last_name">Last Name <abbr title="required" class="required">*</abbr></label>
+						<input type="text" id="billing_last_name" name="billing_last_name" placeholder="Doe" class="input-text" required>
+						<span id="error-billing_last_name" class="error-message" style="color:red; display:none;">This field is required</span>
+					  </p>
+			  
+					  <p class="form-row form-row-first">
+						<label for="billing_company">Company Name</label>
+						<input type="text" id="billing_company" name="billing_company" placeholder="Automobile" class="input-text">
+					  </p>
+			  
+					  <p class="form-row form-row-last validate-required">
+						<label for="billing_email">Email Address <abbr title="required" class="required">*</abbr></label>
+						<input type="email" id="billing_email" name="billing_email" placeholder="info@john.co.uk" class="input-text" required>
+						<span id="error-billing_email" class="error-message" style="color:red; display:none;">This field is required</span>
+					  </p>
+			  
+					  <p class="form-row form-row-first validate-required">
+						<label for="billing_phone">Phone <abbr title="required" class="required">*</abbr></label>
+						<input type="tel" id="billing_phone" name="billing_phone" placeholder="+234 123 4567 89" class="input-text" required>
+						<span id="error-billing_phone" class="error-message" style="color:red; display:none;">This field is required</span>
+					  </p>
+			  
+					  <p class="form-row form-row-last validate-required">
+						<label for="billing_country">Country <abbr title="required" class="required">*</abbr></label>
+						<input type="text" id="billing_country" name="billing_country" placeholder="Nigeria" class="input-text" required>
+						<span id="error-billing_country" class="error-message" style="color:red; display:none;">This field is required</span>
+					  </p>
+			  
+					  <p class="form-row form-row-first validate-required">
+						<label for="billing_address_1">Address <em>(1)</em> <abbr title="required" class="required">*</abbr></label>
+						<input type="text" id="billing_address_1" name="billing_address_1" placeholder="Street Address" class="input-text" required>
+						<span id="error-billing_address_1" class="error-message" style="color:red; display:none;">This field is required</span>
+					  </p>
+			  
+					  <p class="form-row form-row-last">
+						<label for="billing_address_2">Address <em>(2)</em></label>
+						<input type="text" id="billing_address_2" name="billing_address_2" placeholder="Apartment, suite, unit etc. (optional)" class="input-text">
+					  </p>
+			  
+					  <p class="form-row form-row-first validate-required">
+						<label for="billing_city">Town / City <abbr title="required" class="required">*</abbr></label>
+						<input type="text" id="billing_city" name="billing_city" placeholder="Ibadan" class="input-text" required>
+						<span id="error-billing_city" class="error-message" style="color:red; display:none;">This field is required</span>
+					  </p>
+			  
+					  <p class="form-row form-row-last validate-required">
+						<label for="billing_postcode">Postcode / ZIP <abbr title="required" class="required">*</abbr></label>
+						<input type="text" id="billing_postcode" name="billing_postcode" placeholder="NW1W" class="input-text" >
+						<span id="error-billing_postcode" class="error-message" style="color:red; display:none;">This field is required</span>
+					  </p>
+			  
+					  <div class="clear"></div>
+			  
+					  <p class="form-row form-row-wide create-account">
+						<input type="checkbox" id="createaccount" name="createaccount" value="1" class="input-checkbox">
+						<label for="createaccount" class="checkbox">Create an account?</label>
+					  </p>
+			  
+					  <div class="create-account" id="accountFields" style="display: none;">
+						<p>Create an account by entering the information below. If you are a returning customer please login at the top of the page.</p>
+						<p class="form-row form-row-first validate-required">
+						  <label for="account_password">Account password <abbr title="required" class="required">*</abbr></label>
+						  <input type="password" id="account_password" name="account_password" placeholder="Password" class="input-text">
+						  <span id="error-account_password" class="error-message" style="color:red; display:none;">This field is required</span>
+						</p>
+					  </div>
+					</div>
+				  </div>
+				</div>
+			  
+				<!-- Order Review Section -->
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+				  <h4>Your order</h4>
+				  <div class="woocommerce-checkout-review-order" id="order_review">
+					<table class="shop_table woocommerce-checkout-review-order-table">
+					  <thead>
+						<tr>
+						  <th class="product-name">Product</th>
+						  <th class="product-total">Total</th>
+						</tr>
+					  </thead>
+					  <tbody id="order-items-body">
+						<!-- Items dynamically inserted here -->
+					  </tbody>
+					  <tfoot>
+						<tr class="cart-subtotal">
+						  <th>Subtotal</th>
+						  <td><span class="amount" id="subtotal-amount">$0.00</span></td>
+						</tr>
+						<tr class="shipping">
+						  <th>Shipping</th>
+						  <td>Free</td>
+						</tr>
+						<tr class="order-total">
+						  <th>Total</th>
+						  <td><strong><span class="amount" id="total-amount">$0.00</span></strong></td>
+						</tr>
+					  </tfoot>
+					</table>
+				  </div>
+				</div>
+			  
+				<!-- Payment Section -->
+<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+    <h4>Payment</h4>
+    <div class="woocommerce-checkout-payment" id="payment">
+        <ul class="wc_payment_methods payment_methods methods">
+            <li class="wc_payment_method payment_method_cheque">
+                <input type="radio" id="payment_method_cheque" name="payment_method" value="cheque" class="input-radio">
+                <label for="payment_method_cheque">Cheque Payment</label>
+                <div class="payment_box payment_method_cheque">
+                    <p>Please send your cheque to Store Name, Store Street, Store Town, Store State / County, Store Postcode.</p>
+                </div>
+            </li>
+            <li class="wc_payment_method payment_method_paypal">
+                <input type="radio" id="payment_method_paypal" name="payment_method" value="paypal" class="input-radio">
+                <label for="payment_method_paypal"><img src="assets/images/paypal-img.jpg" alt="PayPal" /></label>
+            </li>
+            <li class="wc_payment_method payment_method_cards">
+                <div class="radiobox">
+                    <input type="radio" id="skrill" name="payment_method" value="skrill">
+                    <label for="skrill"><img src="assets/images/skrill-img.jpg" alt="Skrill" /></label>
+                </div>
+                <div class="radiobox">
+                    <input type="radio" id="fastbank" name="payment_method" value="fastbank">
+                    <label for="fastbank"><img src="assets/images/fastbank-img.jpg" alt="Fast Bank" /></label>
+                </div>
+                <div class="radiobox">
+                    <input type="radio" id="authorize" name="payment_method" value="authorize">
+                    <label for="authorize"><img src="assets/images/authorize-img.jpg" alt="Authorize" /></label>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<!-- Place Order Button -->
+<div class="form-row place-order">
+    <input type="submit" value="Place Order" class="continue-btn" id="place-order-btn">
+</div>
+<style>
+    .input-error {
+      border-color: red;
+    }
+
+    .error-message {
+      color: red;
+      display: none;
+      font-size: 13px;
+    }
+  </style>
+<script>
+	document.getElementById('checkout-form').addEventListener('submit', function(event) {
+	  // Prevent form submission
+	  let hasError = false;
+  
+	  // Define required fields
+	  const requiredFields = [
+		'billing_first_name',
+		'billing_last_name',
+		'billing_email',
+		'billing_phone',
+		'billing_country',
+		'billing_address_1',
+		'billing_city',
+		'billing_postcode'
+	  ];
+  
+	  requiredFields.forEach(function(fieldId) {
+		const input = document.getElementById(fieldId);
+		const errorSpan = document.getElementById('error-' + fieldId);
+		if (input && input.value.trim() === '') {
+		  errorSpan.style.display = 'inline';
+		  hasError = true;
+		} else {
+		  errorSpan.style.display = 'none';
+		}
+	  });
+  
+	  // If there's an error, prevent form submission
+	  if (hasError) {
+		event.preventDefault();
+	  }
+	});
+  
+	// Optional: Show/hide password field on "Create account" checkbox
+	document.getElementById('createaccount').addEventListener('change', function() {
+	  const accountFields = document.getElementById('accountFields');
+	  accountFields.style.display = this.checked ? 'block' : 'none';
+	});
+  </script>
+  
+<script>
+	document.addEventListener('DOMContentLoaded', function () {
+		const form = document.getElementById('checkout-form');
+		const placeOrderButton = document.getElementById('place-order-btn');
+	
+		// List of required fields for validation
+		const requiredFields = [
+			{ id: 'billing_first_name', errorId: 'error-first-name' },
+			{ id: 'billing_last_name', errorId: 'error-last-name' },
+			{ id: 'billing_email', errorId: 'error-email' },
+			{ id: 'billing_phone', errorId: 'error-phone' },
+			{ id: 'billing_country', errorId: 'error-country' },
+			{ id: 'billing_address_1', errorId: 'error-address-1' },
+			{ id: 'billing_city', errorId: 'error-city' },
+			{ id: 'billing_postcode', errorId: 'error-postcode' },
+		];
+	
+		const paymentRadios = document.querySelectorAll('input[name="payment_method"]');
+		const paymentSection = document.getElementById('payment');
+		const requiredPaymentMessage = document.createElement('div');
+		requiredPaymentMessage.textContent = "Please select a payment method!";
+		requiredPaymentMessage.style.color = "red";
+		requiredPaymentMessage.style.fontSize = "14px";
+		requiredPaymentMessage.style.marginTop = "10px";
+		requiredPaymentMessage.style.display = "none";
+		paymentSection.appendChild(requiredPaymentMessage);
+	
+		function validateForm(event) {
+			let isValid = true;
+	
+			// Validate required fields
+			requiredFields.forEach(function (field) {
+				const input = document.getElementById(field.id);
+				const errorMessage = document.getElementById(field.errorId);
+	
+				if (input && errorMessage) {
+					if (input.value.trim() === '') {
+						isValid = false;
+						input.style.border = '2px solid red';
+						errorMessage.style.display = 'block';
+					} else {
+						input.style.border = '';
+						errorMessage.style.display = 'none';
+					}
+				}
+			});
+	
+			// Validate payment method
+			const isPaymentSelected = Array.from(paymentRadios).some(radio => radio.checked);
+	
+			if (!isPaymentSelected) {
+				isValid = false;
+				paymentSection.style.border = "2px solid red";
+				requiredPaymentMessage.style.display = "block";
+			} else {
+				paymentSection.style.border = "";
+				requiredPaymentMessage.style.display = "none";
+			}
+	
+			if (!isValid) {
+				event.preventDefault();
+			}
+	
+			return isValid;
+		}
+	
+		// Handle form submission
+		form.addEventListener('submit', function (event) {
+			validateForm(event);
+		});
+	
+		// Hide payment error when any method is selected
+		paymentRadios.forEach(function (radio) {
+			radio.addEventListener('change', function () {
+				paymentSection.style.border = "";
+				requiredPaymentMessage.style.display = "none";
+			});
+		});
+	
+		// Optional: Trigger validation when place order button is clicked
+		placeOrderButton.addEventListener('click', function (event) {
+			// Don't do anything if the form is already being submitted via 'submit'
+			// This just helps trigger validation on click before native submission
+			if (!validateForm(event)) {
+				event.preventDefault();
+			}
+		});
+	});
+	</script>
+	
+	
+
+				
+				<!-- Button & Radio Button Styling -->
+				<style>
+					/* Ensure radio buttons are visible */
+					.input-radio {
+					display: inline-block !important;  /* Ensure radio buttons display */
+					margin-right: 10px;
+					width: auto;
+					height: auto;
+					}
+				
+					/* Style for radio button labels */
+					.input-radio + label {
+					display: inline-block;
+					font-size: 14px;
+					color: #333;
+					cursor: pointer;
+					padding-left: 5px;
+					}
+				
+					/* Style for payment methods section */
+					.wc_payment_methods {
+					list-style: none;
+					padding: 0;
+					margin: 0;
+					}
+				
+					.wc_payment_method {
+					margin-bottom: 15px;
+					}
+				
+					/* Style for payment option images */
+					.radiobox label {
+					cursor: pointer;
+					display: inline-block;
+					padding: 10px;
+					border-radius: 5px;
+					transition: 0.3s ease-in-out;
+					}
+				
+					.radiobox label:hover {
+					background-color: #f1f1f1;
+					box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+					}
+				
+					/* Highlight selected radio button */
+					.input-radio:checked + label {
+					color: #d00000;
+					font-weight: bold;
+					}
+				
+					/* Remove the pseudo-element for the radio buttons */
+					#add_payment_method #payment ul.payment_methods li.wc_payment_method input[type="radio"]:checked + label:after,
+					.woocommerce-checkout #payment ul.payment_methods li.wc_payment_method input[type="radio"]:checked + label:after {
+						content: none !important;
+					}
+
+					/* Center the Place Order button */
+					.form-row.place-order {
+						width: 100%; /* Ensure it takes up the full width */
+						text-align: center; /* Center the content */
+						margin-top: 20px; /* Optional: add some space between the sections */
+					}
+
+					/* Style for the "Place Order" button */
+					.continue-btn {
+						background-color: #d00000;
+						color: white;
+						padding: 12px 80px;
+						font-size: 16px;
+						font-weight: bold;
+						border: none;
+						border-radius: 5px;
+						cursor: pointer;
+						border: 1px solid #d00000;
+						transition: background-color 0.3s ease, color 0.3s ease;
+					}
+
+					.continue-btn:hover {
+						background-color: white;
+						color: #d00000;
+						border: 1px solid #d00000;
+					}
+
+					/* Improve spacing and layout */
+					.wc_payment_method {
+					padding: 15px;
+					background-color: #f9f9f9;
+					border-radius: 8px;
+					margin-bottom: 20px;
+					box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+					}
+				
+					.payment_box {
+					margin-top: 10px;
+					padding-left: 20px;
+					}
+				
+					.form-row.place-order {
+					margin-top: 20px;
+					}
+
+					/* Remove the circle that WooCommerce adds to radio buttons */
+					.woocommerce-checkout #payment ul.payment_methods li label:before {
+						content: none !important;
+						width: 0 !important;
+						height: 0 !important;
+						border: none !important;
+						background: none !important;
+					}
+
+					/* Override the default WooCommerce label styles */
+					#payment ul.payment_methods li label {
+						position: unset !important;
+						font-size: 14px !important;
+						font-weight: normal !important;
+						text-transform: unset !important;
+						font-family: unset !important;
+						letter-spacing: unset !important;
+						padding-left: 10px !important;
+						line-height: 20px !important;
+						cursor: pointer !important;
+					}
+					/* Apply border around selected payment method images */
+					.payment_method_cards .radiobox input[type="radio"]:checked + label {
+						border: 2px solid #d00000 !important;
+						padding: 5px;
+						box-shadow: 0 0 5px rgba(208, 0, 0, 0.5);
+					}
+
+					/* Optional: Add a smooth transition effect */
+					.payment_method_cards .radiobox input[type="radio"]:checked + label {
+						transition: all 0.3s ease;
+					}
+
+
+				</style>
+				
+  
+			  
+				<!-- JavaScript -->
+				<script>
+				  document.getElementById("createaccount").addEventListener("change", function () {
+					document.getElementById("accountFields").style.display = this.checked ? "block" : "none";
+				  });
+				</script>
+			  </form>
+			  
+	         </div>
+	       </div>
+	     </div>
+	   </div>
+	 </div>
+	 <script>
+		document.addEventListener("DOMContentLoaded", function () {
+		  const summary = JSON.parse(localStorage.getItem('checkoutSummary'));
+	  
+		  const tbody = document.getElementById("order-items-body");
+		  const subtotalElem = document.getElementById("subtotal-amount");
+		  const totalElem = document.getElementById("total-amount");
+		  const shippingElem = document.querySelector(".shipping td");
+	  
+		  if (!summary || !Array.isArray(summary.items) || summary.items.length === 0) {
+			// Show popup
+			const emptyCartModal = document.createElement("div");
+			emptyCartModal.innerHTML = `
+				<style>
+					@keyframes fadeIn {
+					from { opacity: 0; transform: scale(0.95); }
+					to { opacity: 1; transform: scale(1); }
+					}
+					.fade-in-modal {
+					animation: fadeIn 0.3s ease forwards;
+					}
+					.modal-button {
+					padding: 6px 12px;
+					text-decoration: none;
+					border-radius: 4px;
+					font-size: 12px;
+					font-weight: 500;
+					transition: 0.3s ease;
+					text-align: center;
+					flex: 1;
+					}
+					.shop-button {
+					background-color: #d00000;
+					color: white;
+					border: none;
+					}
+					.shop-button i {
+					transition: transform 0.3s ease;
+					}
+					.shop-button:hover i {
+					transform: translateX(5px); 
+					}
+					.shop-button:hover {
+					background-color: white;
+					color: #d00000;
+					border: 1px solid #d00000;
+					}
+					.cart-button {
+					background-color: #f9a825;
+					color: black;
+					border: none;
+					}
+					.cart-button:hover {
+					background-color: black;
+					color: #ffd700;
+					border: 1px solid #f9a825;
+					}
+					.close-btn {
+					position: absolute;
+					top: 10px;
+					right: 15px;
+					font-size: 20px;
+					cursor: pointer;
+					color: #999;
+					transition: 0.3s ease;
+					}
+					.close-btn:hover {
+					color: #d00000;
+					}
+					[class*=" icon-"] {
+						line-height: 2!important;;
+					}
+				</style>
+
+				<div style="
+					position: fixed;
+					top: 0; left: 0; right: 0; bottom: 0;
+					background: rgba(0,0,0,0.6);
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					z-index: 9999;
+				">
+					<div class="fade-in-modal" style="position: relative; background: white; padding: 2em; border-radius: 10px; text-align: center; max-width: 400px;">
+
+					<!-- Close Button -->
+					<span onclick="this.parentElement.parentElement.style.display='none'" class="close-btn">&times;</span>
+
+					<h2>Your cart is empty!</h2>
+					<p>Please add items to your cart before proceeding.</p>
+
+					<div style="display: flex; justify-content: space-between; gap: 10px; margin-top: 15px;">
+						<a href="auto-listing.html" class="modal-button shop-button">Continue Shopping <i class="fas fa-arrow-right"></i></a>
+						<a href="shop-cart.html" class="modal-button icon-shopping-cart2  cart-button" class="  "> View Cart</a>
+					</div>
+
+					</div>
+				</div>
+				`;
+
+
+
+			document.body.appendChild(emptyCartModal);
+			return;
+		  }
+	  
+		  // Clear table body
+		  tbody.innerHTML = "";
+	  
+		  summary.items.forEach(item => {
+			const quantity = parseInt(item.quantity || 1);
+			const totalPrice = parseFloat(item.total) || 0;
+	  
+			const row = document.createElement("tr");
+			row.classList.add("cart_item");
+	  
+			row.innerHTML = `
+			  <td class="product-name">${item.name} × ${quantity}</td>
+			  <td class="product-total"><span class="amount">$${totalPrice.toLocaleString()}</span></td>
+			`;
+	  
+			tbody.appendChild(row);
+		  });
+	  
+		  const subtotal = parseFloat(summary.subtotal) || 0;
+	  
+		  // 🎯 Shipping logic based on price tiers
+		  let shippingFee = 0;
+		  if (subtotal >= 100000) {
+			shippingFee = 0;
+		  } else if (subtotal >= 50000) {
+			shippingFee = 500;
+		  } else {
+			shippingFee = 1000;
+		  }
+	  
+		  // Update DOM
+		  shippingElem.innerHTML = `<span class="amount">$${shippingFee.toLocaleString()}</span>`;
+		  subtotalElem.textContent = `$${subtotal.toLocaleString()}`;
+		  totalElem.textContent = `$${(subtotal + shippingFee).toLocaleString()}`;
+		});
+	  </script>
+	  
+	  
+	  
+	  
+	  
+	  <link rel="stylesheet" href="assets/css/all.min.css">
+	  <!-- Cart Icon -->
+	  <div id="cart-icon" class="cart-icon">
+		<i class="fas fa-shopping-cart cs-color"></i>
+		<span id="cart-item-count" class="cart-item-count"></span>
+	  </div>
+
+<style>
+/* Cart Icon Styling */
+.cart-icon {
+position: fixed;
+bottom: 20px;
+left: 20px; /* Change to right: 20px to move to the bottom-right */
+display: none;
+background-color: #f1f1f1;
+border-radius: 50%;
+padding: 15px;
+box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+cursor: pointer;
+}
+
+.cart-icon img {
+width: 40px;
+height: 40px;
+}
+
+.cart-item-count {
+position: absolute;
+top: -5px;
+right: -5px;
+background-color: red;
+color: white;
+font-size: 12px;
+padding: 5px;
+border-radius: 50%;
+display: none; /* Hide by default */
+}
+
+</style>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+var cartIcon = document.getElementById('cart-icon');
+var cartItemCount = document.getElementById('cart-item-count');
+
+// Get cart from localStorage
+var cart = JSON.parse(localStorage.getItem('cart')) || [];
+
+// Function to update the cart icon
+function updateCartIcon() {
+// Count unique products in the cart
+var uniqueProductCount = cart.length; // Count unique items in the cart
+
+if (uniqueProductCount > 0) {
+cartIcon.style.display = 'block'; // Show the cart icon if there are any products
+cartItemCount.style.display = 'inline-block'; // Show the item count
+cartItemCount.textContent = uniqueProductCount; // Update item count to show number of unique products
+} else {
+cartIcon.style.display = 'none'; // Hide the cart icon if no products are in the cart
+}
+}
+
+// Initial update of the cart icon
+updateCartIcon();
+
+// Listen for changes in the cart (this assumes the cart updates are already handled, such as adding or removing items)
+window.addEventListener('storage', function() {
+// Get the updated cart data after changes
+cart = JSON.parse(localStorage.getItem('cart')) || [];
+updateCartIcon(); // Recalculate and update cart icon
+});
+
+// Optionally, you can add a click event to the cart icon to navigate to the cart page
+cartIcon.addEventListener('click', function() {
+window.location.href = 'shop-cart.html';
+});
+});
+
+
+</script>  
+		
+	 <div style="background:#19171a;;" class="page-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<div style="text-align:center; padding:55px 0 25px;" class="cs-ad">
+						<div class="cs-media">
+							<figure> <img src="assets/extra-images/cs-ad-img.jpg" alt=""> </figure>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+	<!-- Main End --> 
+	<!-- Footer Start -->
+	<footer id="footer" style="background:#19171a;padding:32px 0 0">
+		<div class="cs-footer-widgets">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+						<div class="widget widget-our-partners">
+							<div class="widget-section-title">
+								<h6 style="color:#fff !important">Our Partners</h6>
+							</div>
+							<ul>
+								<li><a href="#">Apartments.com</a></li>
+								<li><a href="#">CareerBuilder.com</a></li>
+								<li><a href="#">Cars.com</a></li>
+								<li><a href="#">HomeFinder.com</a></li>
+								<li><a href="#">Detroit Newspapers in Education</a></li>
+								<li><a href="#">Michigan.com</a></li>
+								<li><a href="#">MovingCompanyReviews.com</a></li>
+								<li><a href="#">Find & Save</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+						<div class="widget widget-categores">
+							<div class="widget-section-title">
+								<h6 style="color:#fff !important">Top Categores</h6>
+							</div>
+							<ul>
+								<li><a href="#">All Toyota Vehicles</a></li>
+								<li><a href="#">SUVs</a></li>
+								<li><a href="#">Trucks</a></li>
+								<li><a href="#">Cars</a></li>
+								<li><a href="#">Crossovers</a></li>
+								<li><a href="#">Hybrids</a></li>
+								<li><a href="#">Hybrid Cars</a></li>
+								<li><a href="#">Hybrid SUVs</a></li>
+								<li><a href="#">Concept Vehicles</a></li>
+								<li><a href="#">TRD Pro Series</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+						<div class="widget widget-about-us">
+							<div class="widget-section-title">
+								<h6 style="color:#fff !important">About Us</h6>
+							</div>
+							<ul>
+								<li><a href="#">Shopping Tools</a></li>
+								<li><a href="#">Trade-In Value</a></li>
+								<li><a href="#">Customize Your Own Toyota</a></li>
+								<li><a href="#">Search Inventory</a></li>
+								<li><a href="#">Find a Dealer</a></li>
+								<li><a href="#">Local Specials</a></li>
+								<li><a href="#">Request a Quote</a></li>
+								<li><a href="#">Accessories</a></li>
+								<li><a href="#">Find Your Match</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+						<div class="widget widget-news-letter">
+							<div class="widget-section-title">
+								<h6 style="color:#fff !important">SIGN UP FOR TOYOTA UPDATES</h6>
+							</div>
+							<p>Recently received some brochures from my traders  here are some that might be of interest. </p>
+							<div class="cs-form">
+								<form>
+									<div class="input-holder">
+										<input type="email" placeholder="Enter Valid Email Address">
+										<label> <i class="icon-near_me"></i>
+											<input class="cs-bgcolor" type="submit" value="submit">
+										</label>
+									</div>
+								</form>
+							</div>
+							<div class="cs-social-media">
+								<ul>
+									<li><a href="#" data-original-title="facebook"><i class="icon-facebook-f"></i></a></li>
+									<li><a href="#" data-original-title="twitter"><i class="icon-twitter4"></i></a></li>
+									<li><a href="#" data-original-title="linkedin"><i class="icon-linkedin22"></i></a></li>
+									<li><a href="#" data-original-title="google"><i class="icon-google-plus"></i></a></li>
+									<li><a href="#" data-original-title="rss"><i class="icon-rss"></i></a></li>
+									<li><a href="#" data-original-title="vimeo"><i class="icon-vimeo"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="cs-copyright" style="background:#141215; padding-top:37px; padding-bottom:37px;">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+						<div class="copyright-text">
+							<p>Created by <a href="https://ayodev.io" class="cs-color"> Opeola Ayo</a> Software Developer</p>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"> <div class="cs-back-to-top">
+                        <address>
+                        	<i class="icon-phone"></i> <a href="#">+0 (123) 456-789-10</a>
+                        </address>
+						<a class="btn-to-top cs-bgcolor" href="#"><i class="icon-keyboard_arrow_up"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- Footer End --> 
+</div>
+<script src="assets/scripts/responsive.menu.js"></script>
+<script src="assets/scripts/chosen.select.js"></script> 
+<script src="assets/scripts/slick.js"></script> 
+<script src="assets/scripts/bootstrap-slider.js"></script> 
+<script src="assets/scripts/jquery.mCustomScrollbar.concat.min.js"></script> 
+<script src="assets/scripts/echo.js"></script>
+<!-- Put all Functions in functions.js --> 
+<script src="assets/scripts/functions.js"></script>
+</body>
+
+</html>

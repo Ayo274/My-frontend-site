@@ -1,0 +1,1248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AutoMobile</title>
+<link href="assets/css/bootstrap.css" rel="stylesheet">
+<link href="assets/css/bootstrap-theme.css" rel="stylesheet">
+<link href="assets/css/iconmoon.css" rel="stylesheet">
+<link href="style.css" rel="stylesheet">
+<link href="cs-automobile-plugin.css" rel="stylesheet">
+<link href="assets/css/color.css" rel="stylesheet">
+<link href="assets/css/widget.css" rel="stylesheet">
+<link href="assets/css/responsive.css" rel="stylesheet">
+<!-- <link href="assets/css/bootstrap-rtl.css" rel="stylesheet"> -->
+
+
+<script src="assets/scripts/jquery.js"></script>
+<script src="assets/scripts/modernizr.js"></script>
+<script src="assets/scripts/bootstrap.min.js"></script>
+</head>
+<body class="wp-automobile single-post">
+<div class="wrapper">
+	<!-- Header Start -->
+	<header id="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+					<div class="cs-logo">
+						<div class="cs-media">
+							<figure><a href="index.html"><img src="assets/images/cs-logo.png" alt="" /></a></figure>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-10 col-md-10 col-sm-12 col-xs-12">
+					<div class="cs-main-nav pull-right">
+						<nav class="main-navigation">
+							<ul>
+								<li><a href="index.html">Home</a></li>
+								<li><a href="about-us.html">About Us</a></li>
+								<li><a href="auto-grid.html">Inventory</a>
+									<ul>
+										<li><a href="auto-listing.html">Lookup For Cars</a></li>
+									</ul>
+								</li>
+								<li><a href="agent-listing.html">Dealers</a></li>
+								<li><a href="compare.html">Compare</a></li>
+								<li class="active"><a href="price-plane.html">pages</a>
+									<ul>
+										<li><a href="services.html">Our Services</a></li>
+										<li><a href="user-post-new-vehicles.html">Post a Vehicle</a></li>
+										<li><a href="price-plane.html">Listing Packages</a></li>
+										<li><a href="faq.html">FAQ's & Help</a></li>
+										<li><a href="404.html">404 Page</a></li>
+										<li><a href="search-result.html">Search Result</a></li>
+										<li class="active"><a href="signin-page.html" class="main-link">Signup/Sign in</a></li>
+										
+									</ul>
+								</li>
+								<style>
+									li.active .main-link:hover {
+									color: white!important;
+									}
+
+								</style>
+								<li><a href="contact-us.html">Contact</a></li>
+								<li><a href="shop-listing.html">Shop</a>
+									<ul>
+										<li><a href="shop-listing.html">Products</a></li>
+										<li><a href="shop-cart.html">Cart</a></li>
+										<li><a href="shop-checkout.html">Checkout</a></li>
+									</ul>
+								</li>
+								<li class="cs-user-option">
+									<div class="cs-login">
+										<div class="cs-login-dropdown"> <a href="user-genral-setting.html"><i class="icon-user2"></i> Ayo <i class="icon-chevron-down2"></i></a>
+											<div class="cs-user-dropdown"> <strong>My Account</strong>
+												<ul>
+													<li><a href="user-genral-setting.html">ACCOUNT SETTING<span class="cs-bgcolor">3</span></a></li>
+													<li><a href="user-car-listing.html">MY POSTED CARS <span class="cs-bgcolor">23</span></a></li>
+													<li><a href="user-post-new-vehicles.html">POST NEW CAR</a></li>
+													<li><a href="user-car-shortlist.html">SHORTLISTED</a></li>
+													<li><a href="user-payments.html">PAYMENT</a></li>
+													<li><a href="user-packages.html">PACKAGES</a></li>
+												</ul>
+												<a class="btn-sign-out" href="#">LOGOUT</a> </div>
+										</div>
+										<a class="cs-bgcolor btn-form" data-toggle="modal" href="http://chimpgroup.com/themeforest/automobile/remote.html" data-target="#user-sign-up" aria-hidden="true"><i class="icon-plus"></i> Sell Car</a> 
+										<!-- Modal -->
+										<div class="modal fade" id="user-sign-up" tabindex="-1" role="dialog">
+											<div class="modal-dialog" role="document">
+												<div class="modal-content" style="line-height: 22px;">
+													<div class="modal-header">
+														<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+													</div>
+													<div class="modal-body">
+														<h4>Create Account</h4>
+														<div class="cs-login-form">
+															<form>
+																<div class="input-holder">
+																	<label for="cs-username"> <strong>USERNAME</strong> <i class="icon-user-plus2"></i>
+																		<input type="text" class="" id="cs-username" placeholder="Type desired username">
+																	</label>
+																</div>
+																<div class="input-holder">
+																	<label for="cs-email"> <strong>Email</strong> <i class="icon-envelope"></i>
+																		<input type="email" class="" id="cs-email" placeholder="Input email">
+																	</label>
+																</div>
+																<div class="input-holder">
+																	<label for="cs-login-password"> <strong>Password</strong> <i class="icon-unlock40"></i>
+																		<input type="password" id="cs-login-password" placeholder="******">
+																	</label>
+																</div>
+																<div class="input-holder">
+																	<label for="cs-confirm-password"> <strong>confirm password</strong> <i class="icon-unlock40"></i>
+																		<input type="password" id="cs-confirm-password" placeholder="******">
+																	</label>
+																</div>
+																<div class="input-holder">
+																	<input class="cs-color csborder-color" type="submit" value="Create Account">
+																</div>
+															</form>
+														</div>
+													</div>
+													<div class="modal-footer"> <a data-dismiss="modal" data-target="#user-sign-in" data-toggle="modal" href="javascript:;" aria-hidden="true">Already have account</a>
+														<div class="cs-separator"><span>or</span></div>
+														<div class="cs-user-social"> <em>Signin with your Social Networks</em>
+															<ul>
+																<li><a href="#" data-original-title="facebook"><i class="icon-facebook-f"></i>facebook</a></li>
+																<li><a href="#" data-original-title="twitter"><i class="icon-twitter4"></i>twitter</a></li>
+																<li><a href="#" data-original-title="google-plus"><i class="icon-google4"></i>google</a></li>
+															</ul>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="modal fade" id="user-sign-in" tabindex="-1" role="dialog">
+											<div class="modal-dialog" role="document">
+												<div class="modal-content">
+													<div class="modal-header">
+														<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+													</div>
+													<div class="modal-body">
+														<h4>User Sign in</h4>
+														<div class="cs-login-form">
+															<form>
+																<div class="input-holder">
+																	<label for="cs-username-1"> <strong>USERNAME</strong> <i class="icon-user-plus2"></i>
+																		<input type="text" class="" id="cs-username-1" placeholder="Input username">
+																	</label>
+																</div>
+																<div class="input-holder">
+																	<label for="cs-login-password-1"> <strong>Password</strong> <i class="icon-unlock40"></i>
+																		<input type="password" id="cs-login-password-1" placeholder="******">
+																	</label>
+																</div>
+																<div class="input-holder"> <a class="btn-forgot-pass" data-dismiss="modal" data-target="#user-forgot-pass" data-toggle="modal" href="javascript:;" aria-hidden="true"><i class=" icon-question-circle"></i> Forgot password?</a> </div>
+																<div class="input-holder">
+																	<input class="cs-color csborder-color" type="submit" value="SIGN IN">
+																</div>
+															</form>
+														</div>
+													</div>
+													<div class="modal-footer">
+														<div class="cs-separator"><span>or</span></div>
+														<div class="cs-user-social"> <em>Signin with your Social Networks</em>
+															<ul>
+																<li><a href="#" data-original-title="facebook"><i class="icon-facebook-f"></i>facebook</a></li>
+																<li><a href="#" data-original-title="twitter"><i class="icon-twitter4"></i>twitter</a></li>
+																<li><a href="#" data-original-title="google-plus"><i class="icon-google4"></i>google</a></li>
+															</ul>
+														</div>
+														<div class="cs-user-signup"> <i class="icon-user-plus2"></i> <strong>Not a Member yet? </strong> <a class="cs-color" data-dismiss="modal" data-target="#user-sign-up" data-toggle="modal" href="javascript:;" aria-hidden="true">Signup Now</a> </div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="modal fade" id="user-forgot-pass" tabindex="-1" role="dialog">
+											<div class="modal-dialog" role="document">
+												<div class="modal-content">
+													<div class="modal-header">
+														<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+													</div>
+													<div class="modal-body">
+														<h4>Password Recovery</h4>
+														<div class="cs-login-form">
+															<form>
+																<div class="input-holder">
+																	<label for="cs-email-1"> <strong>Email</strong> <i class="icon-envelope"></i>
+																		<input type="email" class="" id="cs-email-1" placeholder="Input email">
+																	</label>
+																</div>
+																<div class="input-holder">
+																	<input class="cs-color csborder-color" type="submit" value="Send">
+																</div>
+															</form>
+														</div>
+													</div>
+													<div class="modal-footer">
+														<div class="cs-user-signup"> <i class="icon-user-plus2"></i> <strong>Not a Member yet? </strong> <a href="javascript:;" data-toggle="modal" data-target="#user-sign-up" data-dismiss="modal" class="cs-color" aria-hidden="true">Signup Now</a> </div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									
+								</li>
+							</ul>
+						</nav>
+						<div class="cs-user-option hidden-lg visible-sm visible-xs">
+							<div class="cs-login">
+								<div class="cs-login-dropdown"> <a href="user-genral-setting.html"><i class="icon-user2"></i> Ayo <i class="icon-chevron-down2"></i></a>
+									<div class="cs-user-dropdown"> <strong>My Account</strong>
+										<ul>
+											<li><a href="user-genral-setting.html">ACCOUNT SETTING<span class="cs-bgcolor">3</span></a></li>
+											<li><a href="user-car-listing.html">MY POSTED CARS <span class="cs-bgcolor">23</span></a></li>
+											<li><a href="user-post-new-vehicles.html">BUY OR SELL CAR</a></li>
+											<li><a href="user-car-shortlist.html">SHORTLISTED</a></li>
+											<li><a href="user-payments.html">PAYMENT</a></li>
+											<li><a href="user-packages.html">PACKAGES</a></li>
+										</ul>
+										<a class="btn-sign-out" href="#">LOGOUT</a> </div>
+								</div>
+								<a class="cs-bgcolor btn-form" data-toggle="modal" href="http://chimpgroup.com/themeforest/automobile/remote.html" data-target="#user-sign-up-sm" aria-hidden="true"><i class="icon-plus"></i> Sell Car</a> 
+								<!-- Modal -->
+								<div class="modal fade" id="user-sign-up-sm" tabindex="-1" role="dialog">
+									<div class="modal-dialog" role="document">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+											</div>
+											<div class="modal-body">
+												<h4>Create Account</h4>
+												<div class="cs-login-form">
+													<form>
+														<div class="input-holder">
+															<label for="cs-username11"> <strong>USERNAME</strong> <i class="icon-user-plus2"></i>
+																<input type="text" class="" id="cs-username11" placeholder="Type desired username">
+															</label>
+														</div>
+														<div class="input-holder">
+															<label for="cs-email11"> <strong>Email</strong> <i class="icon-envelope"></i>
+																<input type="email" class="" id="cs-email11" placeholder="Input email">
+															</label>
+														</div>
+														<div class="input-holder">
+															<label for="cs-login-password11"> <strong>Password</strong> <i class="icon-unlock40"></i>
+																<input type="password" id="cs-login-password11" placeholder="******">
+															</label>
+														</div>
+														<div class="input-holder">
+															<label for="cs-confirm-password11"> <strong>confirm password</strong> <i class="icon-unlock40"></i>
+																<input type="password" id="cs-confirm-password11" placeholder="******">
+															</label>
+														</div>
+														<div class="input-holder">
+															<input class="cs-color csborder-color" type="submit" value="Create Account">
+														</div>
+													</form>
+												</div>
+											</div>
+											<div class="modal-footer"> <a data-dismiss="modal" data-target="#user-sign-in-sm" data-toggle="modal" href="javascript:;" aria-hidden="true">Already have account</a>
+												<div class="cs-separator"><span>or</span></div>
+												<div class="cs-user-social"> <em>Signin with your Social Networks</em>
+													<ul>
+														<li><a href="#" data-original-title="facebook"><i class="icon-facebook-f"></i>facebook</a></li>
+														<li><a href="#" data-original-title="twitter"><i class="icon-twitter4"></i>twitter</a></li>
+														<li><a href="#" data-original-title="google-plus"><i class="icon-google4"></i>google</a></li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="modal fade" id="user-sign-in-sm" tabindex="-1" role="dialog">
+									<div class="modal-dialog" role="document">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+											</div>
+											<div class="modal-body">
+												<h4>User Sign in</h4>
+												<div class="cs-login-form">
+													<form>
+														<div class="input-holder">
+															<label for="cs-username-111"> <strong>USERNAME</strong> <i class="icon-user-plus2"></i>
+																<input type="text" class="" id="cs-username-111" placeholder="Input username">
+															</label>
+														</div>
+														<div class="input-holder">
+															<label for="cs-login-password-111"> <strong>Password</strong> <i class="icon-unlock40"></i>
+																<input type="password" id="cs-login-password-111" placeholder="******">
+															</label>
+														</div>
+														<div class="input-holder"> <a class="btn-forgot-pass" data-dismiss="modal" data-target="#user-forgot-pass-sm" data-toggle="modal" href="javascript:;" aria-hidden="true"><i class=" icon-question-circle"></i> Forgot password?</a> </div>
+														<div class="input-holder">
+															<input class="cs-color csborder-color" type="submit" value="SIGN IN">
+														</div>
+													</form>
+												</div>
+											</div>
+											<div class="modal-footer">
+												<div class="cs-separator"><span>or</span></div>
+												<div class="cs-user-social"> <em>Signin with your Social Networks</em>
+													<ul>
+														<li><a href="#" data-original-title="facebook"><i class="icon-facebook-f"></i>facebook</a></li>
+														<li><a href="#" data-original-title="twitter"><i class="icon-twitter4"></i>twitter</a></li>
+														<li><a href="#" data-original-title="google-plus"><i class="icon-google4"></i>google</a></li>
+													</ul>
+												</div>
+												<div class="cs-user-signup"> <i class="icon-user-plus2"></i> <strong>Not a Member yet? </strong> <a class="cs-color" data-dismiss="modal" data-target="#user-sign-up-sm" data-toggle="modal" href="javascript:;" aria-hidden="true">Signup Now</a> </div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="modal fade" id="user-forgot-pass-sm" tabindex="-1" role="dialog">
+									<div class="modal-dialog" role="document">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+											</div>
+											<div class="modal-body">
+												<h4>Password Recovery</h4>
+												<div class="cs-login-form">
+													<form>
+														<div class="input-holder">
+															<label for="cs-email-111"> <strong>Email</strong> <i class="icon-envelope"></i>
+																<input type="email" class="" id="cs-email-111" placeholder="Input email">
+															</label>
+														</div>
+														<div class="input-holder">
+															<input class="cs-color csborder-color" type="submit" value="Send">
+														</div>
+													</form>
+												</div>
+											</div>
+											<div class="modal-footer">
+												<div class="cs-user-signup"> <i class="icon-user-plus2"></i> <strong>Not a Member yet? </strong> <a href="javascript:;" data-toggle="modal" data-target="#user-sign-up-sm" data-dismiss="modal" class="cs-color" aria-hidden="true">Signup Now</a> </div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- Header End -->
+	<style>
+		.cs-user-option .cs-login .cs-login-form .input-holder input[type="submit"]:hover {
+			background-color: #d00000!important;
+			color: white!important;
+			border: 1px solid white;
+		}
+		.cs-user-option .cs-login .btn-form:hover {
+			background-color: white!important;
+			color: #d00000!important;
+			border: 1px solid #d00000;
+		}
+		.cs-user-option .cs-login .btn-form {
+								border: 1px solid #d00000;
+		}
+		.main-navigation ul .cs-user-option a:hover {
+			text-decoration: auto!important;
+			color: white!important;
+		}
+		.cs-user-option .cs-login .cs-user-dropdown .btn-sign-out {
+		padding: 5px 0 5px;
+		border: 1px solid #d00000;
+		}
+		.cs-user-option .cs-login .cs-user-dropdown .btn-sign-out:hover {
+			background-color: #d00000!important;
+			color: white!important;
+			border: 1px solid #d00000;
+		}
+	</style> 
+	<!-- Main Start -->
+	<div class="main-section">
+        <div class="page-section" style="background: #fafafa none repeat scroll 0 0;margin-bottom: 30px;margin-top: -30px;padding: 39px 0 44px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="cs-socials-media">
+                            <em>Signup with your Social Networks</em>
+                            <ul>
+                                <li><a data-original-title="facebook" href="#"><i class="icon-facebook-f"></i>facebook</a></li>
+                                <li><a data-original-title="twitter" href="#"><i class="icon-twitter4"></i>twitter</a></li>
+                                <li><a data-original-title="google-plus" href="#"><i class="icon-google4"></i>google</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+		<div class="page-section">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+						<div class="cs-section-title" style="margin-bottom:20px;">
+							<h3 style="text-align:left;">MY ACCOUNT</h3>
+						</div>
+					</div>
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+						<div class="cs-massege-box">
+							<div class="alert alert-info alert-dismissable">
+								<button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+								<i class="icon-info-with-circle"></i><span>Your email address is correct</span> </div>
+							<div class="alert alert-warning alert-dismissable">
+								<button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+								<i class="icon-warning3"></i><span>Password does not meet the criteria. </span> </div>
+							<div class="alert alert-danger alert-dismissable">
+								<button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+								<i class="icon-blocked"></i><span>Wrong Username or password </span> </div>
+							<div class="alert alert-success alert-dismissable">
+								<button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+								<i class="icon-error_outline"></i><span>Email id already registered</div>
+		</div>
+	</div>
+					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+						<div class="cs-signin">
+							<h4>LOGIN</h4>
+							<div class="row">
+							<form>
+								<div class="cs-field-holder">
+									<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+										<label>Username or email address *</label>
+									</div>
+									<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+										<input type="text" name="name" placeholder="" />
+									</div>
+								</div>
+								<div class="cs-field-holder">
+									<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+										<label>Password *</label>
+									</div>
+									<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+										<input type="text" name="name" placeholder="" />
+									</div>
+								</div>
+								<div class="cs-field-holder">
+									<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+										<div class="cs-btn-submit">
+											<input type="submit" value="Login">
+										</div>
+										<a href="#" class="cs-forgot-password" data-toggle="modal" data-target="#user-forgot-pass" data-dismiss="modal"><i class="cs-color icon-help-with-circle"></i>Forgot password?</a>
+									</div>
+								</div>
+								<div class="cs-field-holder">
+								<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+									<div class="cs-checkbox">
+										<input id="check15" type="checkbox" name="check" value="check1">
+										<label for="check15">Remember me</label>
+									</div>
+									</div>
+								</div>
+							</form>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+						<div class="cs-register">
+							<h4>LOGIN</h4>
+							<div class="row">
+							<form>
+								<div class="cs-field-holder">
+									<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+										<label>Email address *</label>
+									</div>
+									<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+										<input type="text" name="name" placeholder="" />
+									</div>
+								</div>
+								<div class="cs-field-holder">
+									<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+										<label>Password *</label>
+									</div>
+									<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+										<input type="text" name="name" placeholder="" />
+									</div>
+								</div>
+								<div class="cs-field-holder">
+									<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+										<div class="cs-btn-submit">
+											<input type="submit" value="Register" >
+										</div>
+									</div>
+								</div>
+							</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="cart-popup" style="display:none; position:fixed; bottom:20px; right:20px; background:white; border:1px solid #ccc; padding:20px; z-index:1000; box-shadow:0 0 10px rgba(0,0,0,0.2); border-radius:10px;">
+			<!-- Include Font Awesome (if not already included) -->
+			<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+			<!-- Close icon -->
+			<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+			
+
+			<style>
+			.close-icon {
+				color: #d00000;
+				font-size: 25px; /* Larger size */
+			}
+
+			.close-icon:hover {
+				color: #ff0000; /* Darker red on hover */
+			}
+			</style>
+
+
+			<img id="popup-image" src="" alt="Product Image" style="width: 100px; height: auto;">
+			<span id="popup-close" style="float: right; cursor: pointer;">
+				<i class="fa-solid fa-rectangle-xmark close-icon"></i>
+			</span>
+			
+			<p>Product added to cart!</p>
+			<a href="shop-cart.html" class="popup-btn">View Cart</a>
+		  </div>
+		  <div id="compare-popup" style="display:none; position:fixed; bottom:20px; right:20px; background:#333; border:1px solid #ccc; padding:15px; border-radius:8px; box-shadow:0 0 10px rgba(0,0,0,0.2); z-index:999;">
+			<p style="color: white!important;"><span id="compare-count">0</span> product(s) selected for comparison</p>
+			<button id="compare-button">Compare Now</button>
+		</div>
+			<style>
+				#compare-button {
+			background-color: #f9a825!important;
+			color: #000!important;
+			border: none!important;
+			padding: 10px 20px!important;
+			border-radius: 6px!important;
+			cursor: pointer!important;
+			transition: background-color 0.3s ease, font-weight 0.3s ease!important;
+			}
+
+			#compare-button:hover {
+			background-color: #f57f17!important; /* Darker shade of yellow */
+			font-weight: bold!important;
+			}
+
+			</style>
+		<div style="margin-bottom:30px;" class="page-section">
+            <div class="container">
+                <div class="row">
+                   <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+						<div class="cs-section-title" style="text-align:center;">
+							<h3>Perfect Cars for youT</h3>
+							<p>It will help us find the Toyota you're looking for in your area.</p>
+						</div>
+					</div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+	                <div class="auto-listing auto-grid">
+	                  <div class="cs-media">
+                        <figure>
+	                        <img alt="#" src="assets/extra-images/listing-Grid-img1.jpg">
+                        </figure>
+	                  </div>
+	                  <div class="auto-text">
+	                    <span class="cs-categories"><a href="#">Timlers Motors</a></span>
+	                    <div class="post-title">
+			            	<h6><a href="#">MERCEDES BENZ CABRIOLET</a></h6>
+			            	<div class="auto-price"><span class="cs-color">$35,000</span> <em>MSRP $40,000</em></div>
+			            </div>
+			             <div class="btn-list">
+			               <a data-target="#list-view" data-toggle="collapse" class="btn btn-danger collapsed" href="javascript:void(0)"></a><div class="collapse" id="list-view">
+			                 <ul>
+			                    <li>30/36 est. mpg 18</li>
+			                    <li>Black front grille with chrome accent</li>
+			                    <li>Cruise control</li>
+			                    <li>Remote keyless entry system</li>
+			                    <li>Tilt 3-spoke steering wheel with audio controls</li>
+			                    <li>15-in. alloy wheels</li>
+			                 </ul>
+			               </div>
+			             </div>
+			            <div class="cs-checkbox">
+			              <input type="checkbox" id="check-list" value="check-listn" name="list">
+						  <label for="check-list">Compare</label>
+			            </div>
+			            <a class="View-btn add-to-cart">Add to Cart<i class=" icon-arrow-long-right"></i></a>
+			           </div>
+	                </div>
+	              </div>
+	              <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+	                <div class="auto-listing auto-grid">
+	                  <div class="cs-media">
+	                     <figure> <img alt="#" src="assets/extra-images/listing-Grid-img2.jpg"></figure>
+	                  </div>
+	                  <div class="auto-text">
+	                    <span class="cs-categories"><a href="#">Timlers Motors</a></span>
+	                    <div class="post-title">
+			            	<h6><a href="#">VOLKSWAGEN PASSAT </a></h6>
+			            	<div class="auto-price"><span class="cs-color">$23,000</span> <em>MSRP $26,000</em></div>
+			            </div>
+			             <div class="btn-list">
+			               <a data-target="#list-view1" data-toggle="collapse" class="btn btn-danger collapsed" href="javascript:void(0)"></a><div class="collapse" id="list-view1">
+			                 <ul>
+			                    <li>30/36 est. mpg 18</li>
+			                    <li>Black front grille with chrome accent</li>
+			                    <li>Cruise control</li>
+			                    <li>Remote keyless entry system</li>
+			                    <li>Tilt 3-spoke steering wheel with audio controls</li>
+			                    <li>15-in. alloy wheels</li>
+			                 </ul>
+			               </div>
+			             </div>
+			            <div class="cs-checkbox">
+			              <input type="checkbox" id="check-list1" value="check-listn" name="list">
+						  <label for="check-list1">Compare</label>
+			            </div>
+			            <a class="View-btn add-to-cart">Add to Cart<i class=" icon-arrow-long-right"></i></a>
+			           </div>
+	                </div>
+	              </div>
+	              <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+	                <div class="auto-listing auto-grid">
+	                  <div class="cs-media">
+	                     <figure> <img alt="#" src="assets/extra-images/listing-Grid-img3.jpg"></figure>
+	                  </div>
+	                  <div class="auto-text">
+	                    <span class="cs-categories"><a href="#">Timlers Motors</a></span>
+	                    <div class="post-title">
+			            	<h6><a href="#">VOLKSWAGEN CABRIOLET</a></h6>
+			            	<div class="auto-price"><span class="cs-color">$22,000</span> <em>MSRP $25,000</em></div>
+			            </div>
+			             <div class="btn-list">
+			               <a data-target="#list-view2" data-toggle="collapse" class="btn btn-danger collapsed" href="javascript:void(0)"></a><div class="collapse" id="list-view2">
+			                 <ul>
+			                    <li>30/36 est. mpg 18</li>
+			                    <li>Black front grille with chrome accent</li>
+			                    <li>Cruise control</li>
+			                    <li>Remote keyless entry system</li>
+			                    <li>Tilt 3-spoke steering wheel with audio controls</li>
+			                    <li>15-in. alloy wheels</li>
+			                 </ul>
+			               </div>
+			             </div>
+			            <div class="cs-checkbox">
+			              <input type="checkbox" id="check-list2" value="check-listn" name="list">
+						  <label for="check-list2">Compare</label>
+			            </div>
+			            <a class="View-btn add-to-cart">Add to Cart<i class=" icon-arrow-long-right"></i></a>
+			           </div>
+	                </div>
+	              </div>
+	              <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+	                <div class="auto-listing auto-grid">
+	                  <div class="cs-media">
+	                     <figure> <img alt="#" src="assets/extra-images/listing-Grid-img4.jpg"></figure>
+	                  </div>
+	                  <div class="auto-text">
+	                    <span class="cs-categories"><a href="#">Timlers Motors</a></span>
+	                    <div class="post-title">
+			            	<h6><a href="#">VOLKSWAGEN T-ROC CABRIOLET </a></h6>
+			            	<div class="auto-price"><span class="cs-color">$21,000</span> <em>MSRP $24,000</em></div>
+			            </div>
+						<div class="btn-list">
+							<a data-target="#list-view2" data-toggle="collapse" class="btn btn-danger collapsed" href="javascript:void(0)"></a><div class="collapse" id="list-view2">
+							  <ul>
+								 <li>30/36 est. mpg 18</li>
+								 <li>Black front grille with chrome accent</li>
+								 <li>Cruise control</li>
+								 <li>Remote keyless entry system</li>
+								 <li>Tilt 3-spoke steering wheel with audio controls</li>
+								 <li>15-in. alloy wheels</li>
+							  </ul>
+							</div>
+						  </div>
+			            <div class="cs-checkbox">
+			              <input type="checkbox" id="check-list3" value="check-listn" name="list">
+						  <label for="check-list3">Compare</label>
+			            </div>
+			            <a class="View-btn add-to-cart">Add to Cart<i class=" icon-arrow-long-right"></i></a>
+			           </div>
+	                </div>
+	              </div>
+                </div>
+            </div>
+        </div> 
+		<script>
+			document.addEventListener("DOMContentLoaded", function () {
+			  const compareCheckboxes = document.querySelectorAll('input[type="checkbox"][name="list"]');
+			  const comparePopup = document.getElementById('compare-popup');
+			  const compareCountDisplay = document.getElementById('compare-count');
+			  const compareButton = document.getElementById('compare-button');
+			
+			  let compareList = [];
+			
+			  function showTemporaryMessage(msg) {
+				const msgBox = document.createElement('div');
+				msgBox.textContent = msg;
+				msgBox.style.position = 'fixed';
+				msgBox.style.bottom = '120px';
+				msgBox.style.right = '20px';
+				msgBox.style.background = '#333';
+				msgBox.style.color = 'white';
+				msgBox.style.padding = '10px 15px';
+				msgBox.style.borderRadius = '6px';
+				msgBox.style.zIndex = 1001;
+				msgBox.style.boxShadow = '0 0 10px rgba(0,0,0,0.2)';
+				document.body.appendChild(msgBox);
+			
+				setTimeout(() => {
+				  document.body.removeChild(msgBox);
+				}, 3000);
+			  }
+			
+			  function updateComparePopup() {
+				compareCountDisplay.textContent = compareList.length;
+			
+				if (compareList.length === 1) {
+				  showTemporaryMessage("Select 2 or 3 products to start comparing.");
+				  comparePopup.style.display = 'none';
+				} else if (compareList.length >= 2 && compareList.length <= 3) {
+				  comparePopup.style.display = 'block';
+				} else {
+				  comparePopup.style.display = 'none';
+				}
+			  }
+			
+			  compareCheckboxes.forEach((checkbox) => {
+				checkbox.addEventListener('change', function () {
+				  const card = this.closest('.auto-listing');
+				  const title = card.querySelector('.post-title a').textContent.trim();
+				  const image = card.querySelector('img').src;
+				  const price = card.querySelector('.cs-color').textContent.trim();
+				  const msrp = card.querySelector('.auto-price em')?.textContent?.trim() || '';
+			
+				  if (this.checked) {
+					if (compareList.length >= 3) {
+					  this.checked = false;
+					  showTemporaryMessage("You can only compare up to 3 products.");
+					} else {
+					  compareList.push({ title, image, price, msrp });
+					}
+				  } else {
+					compareList = compareList.filter(item => item.title !== title);
+				  }
+			
+				  updateComparePopup();
+				});
+			  });
+			
+			  compareButton?.addEventListener('click', () => {
+				if (compareList.length < 2) {
+				  showTemporaryMessage("Select at least 2 products to compare.");
+				  return;
+				}
+			
+				// Save temporarily to localStorage just for navigation
+				localStorage.setItem('compareList', JSON.stringify(compareList));
+			
+				// Navigate
+				window.location.href = "compare.html";
+			
+				// Clear after navigation (optional fallback)
+				setTimeout(() => {
+				  localStorage.removeItem('compareList');
+				}, 2000);
+			  });
+			});
+			
+			</script>
+			
+
+		<script>
+			document.addEventListener("DOMContentLoaded", function () {
+			  const addToCartButtons = document.querySelectorAll('.View-btn');
+			  const popup = document.getElementById('cart-popup');
+			  const closeBtn = document.getElementById('popup-close');
+			  let hideTimeout;
+			
+			  // Load cart from localStorage
+			  let cart = JSON.parse(localStorage.getItem('cart')) || [];
+			
+			  function updateCartIcon() {
+				const uniqueProductCount = cart.length;
+				const cartIcon = document.getElementById('cart-icon');
+				const cartItemCount = document.getElementById('cart-item-count');
+			
+				if (uniqueProductCount > 0) {
+				  cartIcon.style.display = 'block';
+				  cartItemCount.style.display = 'inline-block';
+				  cartItemCount.textContent = uniqueProductCount;
+				} else {
+				  cartIcon.style.display = 'none';
+				  cartItemCount.style.display = 'none';
+				}
+			  }
+			
+			  function showPopup(message, image, isDuplicate = false) {
+				popup.querySelector('p').textContent = message;
+				popup.querySelector('#popup-image').src = image;
+				popup.style.display = 'block';
+				popup.classList.add('fade-in');
+			
+				clearTimeout(hideTimeout);
+				if (isDuplicate) {
+				  hideTimeout = setTimeout(() => {
+					popup.style.display = 'none';
+					popup.classList.remove('fade-in');
+				  }, 3000);
+				}
+			  }
+			
+			  addToCartButtons.forEach(button => {
+				button.addEventListener('click', function () {
+				  const listingCard = button.closest('.auto-listing');
+				  const productTitle = listingCard.querySelector('.post-title h6 a')?.textContent.trim() || listingCard.querySelector('.post-title h4 a')?.textContent.trim();
+				  const productImage = listingCard.querySelector('.cs-media img').src;
+				  const productPrice = listingCard.querySelector('.auto-price .cs-color')?.textContent.trim() || "Price Not Available";
+			
+				  const alreadyInCart = cart.some(item => item.title === productTitle);
+			
+				  if (alreadyInCart) {
+					showPopup(`"${productTitle}" is already in your cart.`, productImage, true);
+				  } else {
+					const item = { title: productTitle, image: productImage, price: productPrice };
+					cart.push(item);
+					localStorage.setItem('cart', JSON.stringify(cart));
+					showPopup(`Added "${productTitle}" to cart!`, productImage, false);
+					updateCartIcon();
+				  }
+				});
+			  });
+			
+			  closeBtn.addEventListener('click', function () {
+				popup.style.display = 'none';
+				popup.classList.remove('fade-in');
+				clearTimeout(hideTimeout);
+			  });
+			
+			  popup.addEventListener('mouseenter', function () {
+				clearTimeout(hideTimeout);
+			  });
+			
+			  popup.addEventListener('mouseleave', function () {
+				if (popup.querySelector('p').textContent.includes('already in your cart')) {
+				  hideTimeout = setTimeout(() => {
+					popup.style.display = 'none';
+					popup.classList.remove('fade-in');
+				  }, 2000);
+				}
+			  });
+			
+			  // Initialize cart icon on page load
+			  updateCartIcon();
+			});
+			</script>
+			
+			
+			
+		  <style>
+			.cart-icon {
+			color: #d00000;
+			}
+	
+			.cart-badge {
+			background-color: #d00000;
+			}
+			.View-btn {
+			cursor: pointer;
+			float: right !important;
+			margin-top: -4px !important;
+			line-height: 13px !important;
+			font-size: 10px !important;
+			color: white !important;
+			display: inline-block !important; /* CHANGED THIS */
+			padding: 10px 15px !important; /* FIXED: removed extra 10px */
+			background-color: #d00000; /* red background */
+			border-radius: 5px; /* optional: rounded corners */
+			text-decoration: none !important; /* remove underline */
+			border: 1px solid transparent; /* prepare for hover */
+			transition: all 0.3s ease; /* smooth hover animation */
+			}
+	
+			.View-btn:hover {
+			background-color: white; /* white background on hover */
+			color: #d00000 !important; /* red text on hover */
+			border: 1px solid #d00000; /* red border */
+			}
+	
+	
+			.View-btn i {
+			transition: transform 0.3s ease;
+			}
+	
+			.View-btn:hover i {
+			transform: translateX(5px); /* make the arrow move a bit on hover */
+			}
+	
+	
+			#cart-popup p {
+			margin: 0 0 10px;
+			font-weight: bold;
+			}
+	
+			#cart-popup .popup-btn {
+			background-color: #d00000;
+			color: white;
+			padding: 5px 10px;
+			text-decoration: none;
+			border-radius: 5px;
+			display: inline-block;
+			transition: background-color 0.3s ease;
+			font-weight: 600;
+			font-size: 14px;
+			}
+	
+			#cart-popup .popup-btn:hover {
+			background-color: #a30000;
+			color: white;
+			text-decoration: none;
+			}
+	
+	
+	
+		  </style>
+		  <style>
+			#cart-popup {
+			  opacity: 0;
+			  transition: opacity 0.5s ease;
+			}
+			
+			#cart-popup.fade-in {
+			  opacity: 1;
+			}
+			</style>
+			<link rel="stylesheet" href="assets/css/all.min.css">
+			<!-- Cart Icon -->
+			<div id="cart-icon" class="cart-icon">
+			  <i class="fas fa-shopping-cart cs-color"></i>
+			  <span id="cart-item-count" class="cart-item-count"></span>
+			</div>
+			
+	<style>
+	/* Cart Icon Styling */
+	.cart-icon {
+	position: fixed;
+	bottom: 20px;
+	left: 20px; /* Change to right: 20px to move to the bottom-right */
+	display: none;
+	background-color: #f1f1f1;
+	border-radius: 50%;
+	padding: 15px;
+	box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+	cursor: pointer;
+	}
+	
+	.cart-icon img {
+	width: 40px;
+	height: 40px;
+	}
+	
+	.cart-item-count {
+	position: absolute;
+	top: -5px;
+	right: -5px;
+	background-color: red;
+	color: white;
+	font-size: 12px;
+	padding: 5px;
+	border-radius: 50%;
+	display: none; /* Hide by default */
+	}
+	
+	</style>
+	<script>
+	document.addEventListener("DOMContentLoaded", function() {
+	var cartIcon = document.getElementById('cart-icon');
+	var cartItemCount = document.getElementById('cart-item-count');
+	
+	// Get cart from localStorage
+	var cart = JSON.parse(localStorage.getItem('cart')) || [];
+	
+	// Function to update the cart icon
+	function updateCartIcon() {
+	// Count unique products in the cart
+	var uniqueProductCount = cart.length; // Count unique items in the cart
+	
+	if (uniqueProductCount > 0) {
+	  cartIcon.style.display = 'block'; // Show the cart icon if there are any products
+	  cartItemCount.style.display = 'inline-block'; // Show the item count
+	  cartItemCount.textContent = uniqueProductCount; // Update item count to show number of unique products
+	} else {
+	  cartIcon.style.display = 'none'; // Hide the cart icon if no products are in the cart
+	}
+	}
+	
+	// Initial update of the cart icon
+	updateCartIcon();
+	
+	// Listen for changes in the cart (this assumes the cart updates are already handled, such as adding or removing items)
+	window.addEventListener('storage', function() {
+	// Get the updated cart data after changes
+	cart = JSON.parse(localStorage.getItem('cart')) || [];
+	updateCartIcon(); // Recalculate and update cart icon
+	});
+	
+	// Optionally, you can add a click event to the cart icon to navigate to the cart page
+	cartIcon.addEventListener('click', function() {
+	window.location.href = 'shop-cart.html'; 
+	});
+	});
+	
+	
+	</script> 
+	
+	
+	<style>
+		.cs-media figure {
+		  position: relative;
+		}
+		
+		.toast-message {
+		  position: absolute;
+		  top: 10px;
+		  right: 10px;
+		  background-color: #6fba17;
+		  font-size: 9px;
+		  color: #fff;
+		  text-transform: uppercase;
+		  text-decoration: none;
+		  border-radius: 20px;
+		  line-height: 14px;
+		  padding: 4px 8px;
+		  font-weight: 700;
+		  z-index: 10;
+		  opacity: 1;
+		}
+		.toast-message:hover {
+			color: #000000;
+			background-color: #6fba17;
+		}
+		
+		.toast-message i {
+		  margin-right: 5px;
+		}
+		
+		@keyframes fadeOut {
+		  0% { opacity: 1; }
+		  70% { opacity: 1; }
+		  100% { opacity: 0; transform: translateY(-5px); }
+		}
+		</style>
+		
+		
+		
+		<script>
+			document.addEventListener("DOMContentLoaded", function () {
+			  // Load cart from localStorage or initialize it
+			  let cart = JSON.parse(localStorage.getItem('cart')) || [];
+		  
+			  // Function to render toast based on cart status
+			  function renderCartToasts() {
+				document.querySelectorAll('.auto-listing').forEach(function (listing) {
+				  const media = listing.querySelector('figure');
+				  const title = listing.querySelector('.post-title h6 a')?.textContent.trim();
+		  
+				  // Remove existing toast if any
+				  const existingToast = media.querySelector('.toast-message');
+				  if (existingToast) existingToast.remove();
+		  
+				  // If item is in cart, show toast
+				  const inCart = cart.some(item => item.title === title);
+				  if (inCart) {
+					const toast = document.createElement('a');
+					toast.classList.add('toast-message');
+					toast.href = "shop-cart.html";
+					toast.innerHTML = '<i class="icon-check_circle"></i> Added to cart!';
+					media.appendChild(toast);
+				  }
+				});
+			  }
+		  
+			  // Call on page load
+			  renderCartToasts();
+		  
+			  // Event listener for "Add to Cart" button
+			  document.querySelectorAll('.add-to-cart').forEach(function (button) {
+				button.addEventListener('click', function () {
+				  const listing = button.closest('.auto-listing');
+				  const media = listing.querySelector('figure');
+				  const title = listing.querySelector('.post-title h6 a')?.textContent.trim();
+				  const image = listing.querySelector('.cs-media img')?.src;
+				  const price = listing.querySelector('.auto-price .cs-color')?.textContent.trim() || "Price Not Available";
+		  
+				  // Check if already in cart
+				  const alreadyInCart = cart.some(item => item.title === title);
+		  
+				  if (!alreadyInCart) {
+					// Add to cart
+					cart.push({ title, image, price });
+					localStorage.setItem('cart', JSON.stringify(cart));
+				  }
+		  
+				  // Re-render toasts to ensure UI is updated
+				  renderCartToasts();
+				});
+			  });
+			});
+		  </script>
+		<div class="page-section" style="background:#19171a;">
+             <div class="container">
+                 <div class="row">
+                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                       <div class="cs-ad" style="text-align:center; padding:55px 0 32px;">
+                          <div class="cs-media">
+                                <figure>
+                                    <img src="assets/extra-images/cs-ad-img.jpg" alt="" />
+                                </figure>
+                        	</div>
+                    	</div>
+                    </div>
+                </div>
+            </div>
+  		</div>
+	</div>
+	<!-- Main End --> 
+	
+	<!-- Footer Start -->
+	<footer id="footer" style="background:#19171a;padding:32px 0 0"> 
+		<div class="cs-footer-widgets">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <div class="widget widget-our-partners">
+                            <div class="widget-section-title"><h6 style="color:#fff !important">Our Partners</h6></div>
+                            <ul>
+                                <li><a href="#">Apartments.com</a></li>
+                                <li><a href="#">CareerBuilder.com</a></li>
+                                <li><a href="#">Cars.com</a></li>
+                                <li><a href="#">HomeFinder.com</a></li>
+                                <li><a href="#">Detroit Newspapers in Education</a></li>
+                                <li><a href="#">Michigan.com</a></li>
+                                <li><a href="#">MovingCompanyReviews.com</a></li>
+                                <li><a href="#">Find & Save</a></li>
+                            </ul>	
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <div class="widget widget-categores">
+                            <div class="widget-section-title"><h6 style="color:#fff !important">Top Categores</h6></div>
+                            <ul>
+                                <li><a href="#">All Toyota Vehicles</a></li>
+                                <li><a href="#">SUVs</a></li>
+                                <li><a href="#">Trucks</a></li>
+                                <li><a href="#">Cars</a></li>
+                                <li><a href="#">Crossovers</a></li>
+                                <li><a href="#">Hybrids</a></li>
+                                <li><a href="#">Hybrid Cars</a></li>
+                                <li><a href="#">Hybrid SUVs</a></li>
+                                <li><a href="#">Concept Vehicles</a></li>
+                                <li><a href="#">TRD Pro Series</a></li>
+                            </ul>	
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <div class="widget widget-about-us">
+                            <div class="widget-section-title"><h6 style="color:#fff !important">About Us</h6></div>
+                            <ul>
+                                <li><a href="#">Shopping Tools</a></li>
+                                <li><a href="#">Trade-In Value</a></li>
+                                <li><a href="#">Customize Your Own Toyota</a></li>
+                                <li><a href="#">Search Inventory</a></li>
+                                <li><a href="#">Find a Dealer</a></li>
+                                <li><a href="#">Local Specials</a></li>
+                                <li><a href="#">Request a Quote</a></li>
+                                <li><a href="#">Accessories</a></li>
+                                <li><a href="#">Find Your Match</a></li>
+                            </ul>	
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <div class="widget widget-news-letter">
+                            <div class="widget-section-title"><h6 style="color:#fff !important">SIGN UP FOR TOYOTA UPDATES</h6></div>
+                            <p>Recently received some brochures from my traders  here are some that might be of interest. </p>
+							<div class="cs-form">
+                            	<form>
+                                	<div class="input-holder">
+                                    	<input type="email" placeholder="Enter Valid Email Address">
+                                        <label>
+                                        	<i class="icon-send2"></i>
+                                    		<input class="cs-bgcolor" type="submit" value="submit">
+                                        </label>
+                                    </div>
+                                </form>
+                            </div>
+							<div class="cs-social-media">
+                            	<ul>
+                                <li><a href="#" data-original-title="facebook"><i class="icon-facebook-f"></i></a></li>
+                                <li><a href="#" data-original-title="twitter"><i class="icon-twitter4"></i></a></li>
+                                <li><a href="#" data-original-title="linkedin"><i class="icon-linkedin22"></i></a></li>
+                                <li><a href="#" data-original-title="google"><i class="icon-google-plus"></i></a></li>
+                                <li><a href="#" data-original-title="rss"><i class="icon-rss"></i></a></li>
+                                <li><a href="#" data-original-title="vimeo"><i class="icon-vimeo"></i></a></li>
+                            </ul>	
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+		</div>
+        
+        <div class="cs-copyright" style="background:#141215; padding-top:37px; padding-bottom:37px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+						<div class="copyright-text">
+							<p>Created by <a href="https://ayodev.io" class="cs-color"> Opeola Ayo</a> Software Developer</p>
+						</div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <div class="cs-back-to-top">
+                        <address>
+                        	<i class="icon-phone"></i> <a href="#">+0 (123) 456-789-10</a>
+                        </address>
+						<a class="btn-to-top cs-bgcolor" href="#"><i class="icon-keyboard_arrow_up"></i></a>
+						</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+	</footer>
+	<!-- Footer End --> 
+</div>
+
+
+<script src="assets/scripts/responsive.menu.js"></script> 
+<script src="assets/scripts/chosen.select.js"></script> 
+<script src="assets/scripts/slick.js"></script> 
+<script src="assets/scripts/echo.js"></script>
+<!-- Put all Functions in functions.js --> 
+<script src="assets/scripts/functions.js"></script>
+</body>
+
+</html>

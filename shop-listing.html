@@ -1,0 +1,1252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AutoMobile</title>
+<link href="assets/css/bootstrap.css" rel="stylesheet">
+<link href="assets/css/bootstrap-theme.css" rel="stylesheet">
+<link href="assets/css/iconmoon.css" rel="stylesheet">
+<link href="style.css" rel="stylesheet">
+<link href="cs-automobile-plugin.css" rel="stylesheet">
+<link href="assets/css/woocommerce.css" rel="stylesheet">
+<link href="assets/css/chosen.css" rel="stylesheet">
+<link href="assets/css/color.css" rel="stylesheet">
+<link href="assets/css/widget.css" rel="stylesheet">
+<link href="assets/css/responsive.css" rel="stylesheet">
+<script src="assets/scripts/jquery.js"></script>
+<script src="assets/scripts/modernizr.js"></script>
+<script src="assets/scripts/bootstrap.min.js"></script>
+</head>
+<body class="woocommerce woocommerce-page single-product wp-automobile">
+<div class="wrapper"> 
+	<!-- Header Start -->
+	<header id="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+					<div class="cs-logo">
+						<div class="cs-media">
+							<figure><a href="index.html"><img src="assets/images/cs-logo.png" alt="" /></a></figure>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-10 col-md-10 col-sm-12 col-xs-12">
+					<div class="cs-main-nav pull-right">
+						<nav class="main-navigation">
+							<ul>
+								<li><a href="index.html">Home</a></li>
+								<li><a href="about-us.html">About Us</a></li>
+								<li><a href="auto-grid.html">Inventory</a>
+									<ul>
+										<li><a href="auto-listing.html">Lookup For Cars</a></li>
+									</ul>
+								</li>
+								<li><a href="agent-listing.html">Dealers</a></li>
+								<li><a href="compare.html">Compare</a></li>
+								<li><a href="price-plane.html">pages</a>
+									<ul>
+										<li><a href="services.html">Our Services</a></li>
+										<li><a href="user-post-new-vehicles.html">Post a Vehicle</a></li>
+										<li><a href="price-plane.html">Listing Packages</a></li>
+										<li><a href="faq.html">FAQ's & Help</a></li>
+										<li><a href="404.html">404 Page</a></li>
+										<li><a href="search-result.html">Search Result</a></li>
+										<li><a href="signin-page.html">Signup/Sign in</a></li>
+										
+									</ul>
+								</li>
+								<li><a href="contact-us.html">Contact</a></li>
+								<li  class="active"><a href="shop-listing.html">Shop</a>
+									<ul>
+										<li  class="active"><a href="shop-listing.html" class="main-link">Products</a></li>
+										<li><a href="shop-cart.html">Cart</a></li>
+										<li><a href="shop-checkout.html">Checkout</a></li>
+									</ul>
+								</li>
+								<style>
+									li.active .main-link:hover {
+									color: white!important;
+									}
+
+								</style>
+								<li class="cs-user-option">
+									<div class="cs-login">
+										<div class="cs-login-dropdown"> <a href="user-genral-setting.html"><i class="icon-user2"></i> Ayo <i class="icon-chevron-down2"></i></a>
+											<div class="cs-user-dropdown"> <strong>My Account</strong>
+												<ul>
+													<li><a href="user-genral-setting.html">ACCOUNT SETTING<span class="cs-bgcolor">3</span></a></li>
+													<li><a href="user-car-listing.html">MY POSTED CARS <span class="cs-bgcolor">23</span></a></li>
+													<li><a href="user-post-new-vehicles.html">POST NEW CAR</a></li>
+													<li><a href="user-car-shortlist.html">SHORTLISTED</a></li>
+													<li><a href="user-payments.html">PAYMENT</a></li>
+													<li><a href="user-packages.html">PACKAGES</a></li>
+												</ul>
+												<a class="btn-sign-out" href="#">LOGOUT</a> </div>
+										</div>
+										<a class="cs-bgcolor btn-form" data-toggle="modal" href="http://chimpgroup.com/themeforest/automobile/remote.html" data-target="#user-sign-up" aria-hidden="true"><i class="icon-plus"></i> Sell Car</a> 
+										<!-- Modal -->
+										<div class="modal fade" id="user-sign-up" tabindex="-1" role="dialog">
+											<div class="modal-dialog" role="document">
+												<div class="modal-content" style="line-height: 22px;">
+													<div class="modal-header">
+														<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+													</div>
+													<div class="modal-body">
+														<h4>Create Account</h4>
+														<div class="cs-login-form">
+															<form>
+																<div class="input-holder">
+																	<label for="cs-username"> <strong>USERNAME</strong> <i class="icon-user-plus2"></i>
+																		<input type="text" class="" id="cs-username" placeholder="Type desired username">
+																	</label>
+																</div>
+																<div class="input-holder">
+																	<label for="cs-email"> <strong>Email</strong> <i class="icon-envelope"></i>
+																		<input type="email" class="" id="cs-email" placeholder="Input email">
+																	</label>
+																</div>
+																<div class="input-holder">
+																	<label for="cs-login-password"> <strong>Password</strong> <i class="icon-unlock40"></i>
+																		<input type="password" id="cs-login-password" placeholder="******">
+																	</label>
+																</div>
+																<div class="input-holder">
+																	<label for="cs-confirm-password"> <strong>confirm password</strong> <i class="icon-unlock40"></i>
+																		<input type="password" id="cs-confirm-password" placeholder="******">
+																	</label>
+																</div>
+																<div class="input-holder">
+																	<input class="cs-color csborder-color" type="submit" value="Create Account">
+																</div>
+															</form>
+														</div>
+													</div>
+													<div class="modal-footer"> <a data-dismiss="modal" data-target="#user-sign-in" data-toggle="modal" href="javascript:;" aria-hidden="true">Already have account</a>
+														<div class="cs-separator"><span>or</span></div>
+														<div class="cs-user-social"> <em>Signin with your Social Networks</em>
+															<ul>
+																<li><a href="#" data-original-title="facebook"><i class="icon-facebook-f"></i>facebook</a></li>
+																<li><a href="#" data-original-title="twitter"><i class="icon-twitter4"></i>twitter</a></li>
+																<li><a href="#" data-original-title="google-plus"><i class="icon-google4"></i>google</a></li>
+															</ul>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="modal fade" id="user-sign-in" tabindex="-1" role="dialog">
+											<div class="modal-dialog" role="document">
+												<div class="modal-content">
+													<div class="modal-header">
+														<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+													</div>
+													<div class="modal-body">
+														<h4>User Sign in</h4>
+														<div class="cs-login-form">
+															<form>
+																<div class="input-holder">
+																	<label for="cs-username-1"> <strong>USERNAME</strong> <i class="icon-user-plus2"></i>
+																		<input type="text" class="" id="cs-username-1" placeholder="Input username">
+																	</label>
+																</div>
+																<div class="input-holder">
+																	<label for="cs-login-password-1"> <strong>Password</strong> <i class="icon-unlock40"></i>
+																		<input type="password" id="cs-login-password-1" placeholder="******">
+																	</label>
+																</div>
+																<div class="input-holder"> <a class="btn-forgot-pass" data-dismiss="modal" data-target="#user-forgot-pass" data-toggle="modal" href="javascript:;" aria-hidden="true"><i class=" icon-question-circle"></i> Forgot password?</a> </div>
+																<div class="input-holder">
+																	<input class="cs-color csborder-color" type="submit" value="SIGN IN">
+																</div>
+															</form>
+														</div>
+													</div>
+													<div class="modal-footer">
+														<div class="cs-separator"><span>or</span></div>
+														<div class="cs-user-social"> <em>Signin with your Social Networks</em>
+															<ul>
+																<li><a href="#" data-original-title="facebook"><i class="icon-facebook-f"></i>facebook</a></li>
+																<li><a href="#" data-original-title="twitter"><i class="icon-twitter4"></i>twitter</a></li>
+																<li><a href="#" data-original-title="google-plus"><i class="icon-google4"></i>google</a></li>
+															</ul>
+														</div>
+														<div class="cs-user-signup"> <i class="icon-user-plus2"></i> <strong>Not a Member yet? </strong> <a class="cs-color" data-dismiss="modal" data-target="#user-sign-up" data-toggle="modal" href="javascript:;" aria-hidden="true">Signup Now</a> </div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="modal fade" id="user-forgot-pass" tabindex="-1" role="dialog">
+											<div class="modal-dialog" role="document">
+												<div class="modal-content">
+													<div class="modal-header">
+														<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+													</div>
+													<div class="modal-body">
+														<h4>Password Recovery</h4>
+														<div class="cs-login-form">
+															<form>
+																<div class="input-holder">
+																	<label for="cs-email-1"> <strong>Email</strong> <i class="icon-envelope"></i>
+																		<input type="email" class="" id="cs-email-1" placeholder="Input email">
+																	</label>
+																</div>
+																<div class="input-holder">
+																	<input class="cs-color csborder-color" type="submit" value="Send">
+																</div>
+															</form>
+														</div>
+													</div>
+													<div class="modal-footer">
+														<div class="cs-user-signup"> <i class="icon-user-plus2"></i> <strong>Not a Member yet? </strong> <a href="javascript:;" data-toggle="modal" data-target="#user-sign-up" data-dismiss="modal" class="cs-color" aria-hidden="true">Signup Now</a> </div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									
+								</li>
+							</ul>
+						</nav>
+						<div class="cs-user-option hidden-lg visible-sm visible-xs">
+							<div class="cs-login">
+								<div class="cs-login-dropdown"> <a href="user-genral-setting.html"><i class="icon-user2"></i> Ayo <i class="icon-chevron-down2"></i></a>
+									<div class="cs-user-dropdown"> <strong>My Account</strong>
+										<ul>
+											<li><a href="user-genral-setting.html">ACCOUNT SETTING<span class="cs-bgcolor">3</span></a></li>
+											<li><a href="user-car-listing.html">MY POSTED CARS <span class="cs-bgcolor">23</span></a></li>
+											<li><a href="user-post-new-vehicles.html">BUY OR SELL CAR</a></li>
+											<li><a href="user-car-shortlist.html">SHORTLISTED</a></li>
+											<li><a href="user-payments.html">PAYMENT</a></li>
+											<li><a href="user-packages.html">PACKAGES</a></li>
+										</ul>
+										<a class="btn-sign-out" href="#">LOGOUT</a> </div>
+								</div>
+								<a class="cs-bgcolor btn-form" data-toggle="modal" href="http://chimpgroup.com/themeforest/automobile/remote.html" data-target="#user-sign-up-sm" aria-hidden="true"><i class="icon-plus"></i> Sell Car</a> 
+								<!-- Modal -->
+								<div class="modal fade" id="user-sign-up-sm" tabindex="-1" role="dialog">
+									<div class="modal-dialog" role="document">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+											</div>
+											<div class="modal-body">
+												<h4>Create Account</h4>
+												<div class="cs-login-form">
+													<form>
+														<div class="input-holder">
+															<label for="cs-username11"> <strong>USERNAME</strong> <i class="icon-user-plus2"></i>
+																<input type="text" class="" id="cs-username11" placeholder="Type desired username">
+															</label>
+														</div>
+														<div class="input-holder">
+															<label for="cs-email11"> <strong>Email</strong> <i class="icon-envelope"></i>
+																<input type="email" class="" id="cs-email11" placeholder="Input email">
+															</label>
+														</div>
+														<div class="input-holder">
+															<label for="cs-login-password11"> <strong>Password</strong> <i class="icon-unlock40"></i>
+																<input type="password" id="cs-login-password11" placeholder="******">
+															</label>
+														</div>
+														<div class="input-holder">
+															<label for="cs-confirm-password11"> <strong>confirm password</strong> <i class="icon-unlock40"></i>
+																<input type="password" id="cs-confirm-password11" placeholder="******">
+															</label>
+														</div>
+														<div class="input-holder">
+															<input class="cs-color csborder-color" type="submit" value="Create Account">
+														</div>
+													</form>
+												</div>
+											</div>
+											<div class="modal-footer"> <a data-dismiss="modal" data-target="#user-sign-in-sm" data-toggle="modal" href="javascript:;" aria-hidden="true">Already have account</a>
+												<div class="cs-separator"><span>or</span></div>
+												<div class="cs-user-social"> <em>Signin with your Social Networks</em>
+													<ul>
+														<li><a href="#" data-original-title="facebook"><i class="icon-facebook-f"></i>facebook</a></li>
+														<li><a href="#" data-original-title="twitter"><i class="icon-twitter4"></i>twitter</a></li>
+														<li><a href="#" data-original-title="google-plus"><i class="icon-google4"></i>google</a></li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="modal fade" id="user-sign-in-sm" tabindex="-1" role="dialog">
+									<div class="modal-dialog" role="document">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+											</div>
+											<div class="modal-body">
+												<h4>User Sign in</h4>
+												<div class="cs-login-form">
+													<form>
+														<div class="input-holder">
+															<label for="cs-username-111"> <strong>USERNAME</strong> <i class="icon-user-plus2"></i>
+																<input type="text" class="" id="cs-username-111" placeholder="Input username">
+															</label>
+														</div>
+														<div class="input-holder">
+															<label for="cs-login-password-111"> <strong>Password</strong> <i class="icon-unlock40"></i>
+																<input type="password" id="cs-login-password-111" placeholder="******">
+															</label>
+														</div>
+														<div class="input-holder"> <a class="btn-forgot-pass" data-dismiss="modal" data-target="#user-forgot-pass-sm" data-toggle="modal" href="javascript:;" aria-hidden="true"><i class=" icon-question-circle"></i> Forgot password?</a> </div>
+														<div class="input-holder">
+															<input class="cs-color csborder-color" type="submit" value="SIGN IN">
+														</div>
+													</form>
+												</div>
+											</div>
+											<div class="modal-footer">
+												<div class="cs-separator"><span>or</span></div>
+												<div class="cs-user-social"> <em>Signin with your Social Networks</em>
+													<ul>
+														<li><a href="#" data-original-title="facebook"><i class="icon-facebook-f"></i>facebook</a></li>
+														<li><a href="#" data-original-title="twitter"><i class="icon-twitter4"></i>twitter</a></li>
+														<li><a href="#" data-original-title="google-plus"><i class="icon-google4"></i>google</a></li>
+													</ul>
+												</div>
+												<div class="cs-user-signup"> <i class="icon-user-plus2"></i> <strong>Not a Member yet? </strong> <a class="cs-color" data-dismiss="modal" data-target="#user-sign-up-sm" data-toggle="modal" href="javascript:;" aria-hidden="true">Signup Now</a> </div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="modal fade" id="user-forgot-pass-sm" tabindex="-1" role="dialog">
+									<div class="modal-dialog" role="document">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+											</div>
+											<div class="modal-body">
+												<h4>Password Recovery</h4>
+												<div class="cs-login-form">
+													<form>
+														<div class="input-holder">
+															<label for="cs-email-111"> <strong>Email</strong> <i class="icon-envelope"></i>
+																<input type="email" class="" id="cs-email-111" placeholder="Input email">
+															</label>
+														</div>
+														<div class="input-holder">
+															<input class="cs-color csborder-color" type="submit" value="Send">
+														</div>
+													</form>
+												</div>
+											</div>
+											<div class="modal-footer">
+												<div class="cs-user-signup"> <i class="icon-user-plus2"></i> <strong>Not a Member yet? </strong> <a href="javascript:;" data-toggle="modal" data-target="#user-sign-up-sm" data-dismiss="modal" class="cs-color" aria-hidden="true">Signup Now</a> </div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- Header End -->
+	<style>
+		.cs-user-option .cs-login .cs-login-form .input-holder input[type="submit"]:hover {
+			background-color: #d00000!important;
+			color: white!important;
+			border: 1px solid white;
+		}
+		.cs-user-option .cs-login .btn-form:hover {
+			background-color: white!important;
+			color: #d00000!important;
+			border: 1px solid #d00000;
+		}
+		.cs-user-option .cs-login .btn-form {
+								border: 1px solid #d00000;
+		}
+		.main-navigation ul .cs-user-option a:hover {
+			text-decoration: auto!important;
+			color: white!important;
+		}
+		.cs-user-option .cs-login .cs-user-dropdown .btn-sign-out {
+		padding: 5px 0 5px;
+		border: 1px solid #d00000;
+		}
+		.cs-user-option .cs-login .cs-user-dropdown .btn-sign-out:hover {
+			background-color: #d00000!important;
+			color: white!important;
+			border: 1px solid #d00000;
+		}
+	</style> 
+<!-- Main Start -->
+<div class="main-section"> 
+	<div class="page-section">
+		<div class="container">
+			<div class="row">
+				<div class="section-fullwidth col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<div class="row">
+						<div class="page-content col-lg-9 col-md-9 col-sm-12 col-xs-12">
+							<div class="row">
+								 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+									 <div class="site-main">
+										<div class="columns-3">
+											<ul class="products">
+												<div id="cart-popup" style="display:none; position:fixed; bottom:20px; right:20px; background:white; border:1px solid #ccc; padding:20px; z-index:1000; box-shadow:0 0 10px rgba(0,0,0,0.2); border-radius:10px;">
+													<!-- Include Font Awesome (if not already included) -->
+													<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+										
+													<!-- Close icon -->
+													<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+													
+										
+													<style>
+													.close-icon {
+														color: #d00000;
+														font-size: 25px; /* Larger size */
+													}
+										
+													.close-icon:hover {
+														color: #ff0000; /* Darker red on hover */
+													}
+													</style>
+										
+										
+													<img id="popup-image" src="" alt="Product Image" style="width: 100px; height: auto;">
+													<span id="popup-close" style="float: right; cursor: pointer;">
+														<i class="fa-solid fa-rectangle-xmark close-icon"></i>
+													</span>
+													
+													<p>Product added to cart!</p>
+													<a href="shop-cart.html" class="popup-btn">View Cart</a>
+												  </div>
+												<li class="product">
+													<a href="javascript:void(0)">
+														<img src="assets/extra-images/shop1.jpg" alt="shop" />
+														<h5>Brembo Sport Brakes</h5>
+														<span class="price">
+															<ins><span class="amount">$700.00</span></ins>
+														</span>
+														<div title="Rated 5 out of 5" class="star-rating">
+															<span style="width:66%"><strong class="rating">5</strong> out of 5</span>
+														</div>
+													</a>
+													<div class="product-action-button">
+														<a class="cs-color btn btn-flat button product_type_simple add_to_cart_button ajax_add_to_cart" href="#">
+															<i class="icon-shopping-cart2 cs-bgcolor"></i>
+															Add to cart
+														</a>
+													</div>
+												</li>
+												<li class="product">
+													<a href="javascript:void(0)">
+														<img src="assets/extra-images/shop2.jpg" alt="shop" />
+														<h5>USB Air Compressor</h5>
+														<span class="price">
+															<span class="amount">$1,200.00</span>
+														</span>
+														<div title="Rated 5 out of 5" class="star-rating">
+															<span style="width:66%"><strong class="rating">5</strong> out of 5</span>
+														</div>
+													</a>
+													<div class="product-action-button">
+														<a class="cs-color btn btn-flat button product_type_simple add_to_cart_button ajax_add_to_cart" href="#">
+															<i class="icon-shopping-cart2 cs-bgcolor"></i>
+															Add to cart
+														</a>
+													</div>
+												</li>
+												<li class="product">
+													<a href="javascript:void(0)">
+														<img src="assets/extra-images/shop3.jpg" alt="shop" />
+														<h5>Ninja Sound</h5>
+														<span class="price">
+															<span class="amount">$950.00</span>
+														</span>
+														<div title="Rated 5 out of 5" class="star-rating">
+															<span style="width:66%"><strong class="rating">5</strong> out of 5</span>
+														</div>
+													</a>
+													<div class="product-action-button">
+														<a class="cs-color btn btn-flat button product_type_simple add_to_cart_button ajax_add_to_cart" href="#">
+															<i class="icon-shopping-cart2 cs-bgcolor"></i>
+															Add to cart
+														</a>
+													</div>
+												</li>
+												<li class="product">
+													<a href="javascript:void(0)">
+														<img src="assets/extra-images/shop4.jpg" alt="shop" />
+														<h5>Air Filter</h5>
+														<span class="price">
+															<ins><span class="amount">$900.00</span></ins>
+														</span>
+														<div title="Rated 5 out of 5" class="star-rating">
+															<span style="width:66%"><strong class="rating">5</strong> out of 5</span>
+														</div>
+													</a>
+													<div class="product-action-button">
+														<a class="cs-color btn btn-flat button product_type_simple add_to_cart_button ajax_add_to_cart" href="#">
+															<i class="icon-shopping-cart2 cs-bgcolor"></i>
+															Add to cart
+														</a>
+													</div>
+												</li>
+												<li class="product">
+													<a href="javascript:void(0)">
+														<img src="assets/extra-images/shop5.jpg" alt="shop" />
+														<h5>Car brush</h5>
+														<span class="price">
+															<span class="amount">$500.00</span>
+														</span>
+														<div title="Rated 5 out of 5" class="star-rating">
+															<span style="width:66%"><strong class="rating">5</strong> out of 5</span>
+														</div>
+													</a>
+													<div class="product-action-button">
+														<a class="cs-color btn btn-flat button product_type_simple add_to_cart_button ajax_add_to_cart" href="#">
+															<i class="icon-shopping-cart2 cs-bgcolor"></i>
+															Add to cart
+														</a>
+													</div>
+												</li>
+												<li class="product">
+													<a href="javascript:void(0)">
+														<img src="assets/extra-images/shop6.jpg" alt="shop" />
+														<h5>Car mats for BMW F10</h5>
+														<span class="price">
+															<ins><span class="amount">$99.00</span></ins>
+															<del><span class="amount">$150.00</span></del>
+														</span>
+														<div title="Rated 5 out of 5" class="star-rating">
+															<span style="width:66%"><strong class="rating">5</strong> out of 5</span>
+														</div>
+													</a>
+													<div class="product-action-button">
+														<a class="cs-color btn btn-flat button product_type_simple add_to_cart_button ajax_add_to_cart" href="#">
+															<i class="icon-shopping-cart2 cs-bgcolor"></i>
+															Add to cart
+														</a>
+													</div>
+												</li>
+												<li class="product">
+													<a href="javascript:void(0)">
+														<img src="assets/extra-images/shop7.jpg" alt="shop" />
+														<h5>Car Wheel R18</h5>
+														<span class="price">
+															<span class="amount">$2,500.00</span>
+														</span>
+														<div title="Rated 5 out of 5" class="star-rating">
+															<span style="width:66%"><strong class="rating">5</strong> out of 5</span>
+														</div>
+													</a>
+													<div class="product-action-button">
+														<a class="cs-color btn btn-flat button product_type_simple add_to_cart_button ajax_add_to_cart" href="#">
+															<i class="icon-shopping-cart2 cs-bgcolor"></i>
+															Add to cart
+														</a>
+													</div>
+												</li>
+												<li class="product">
+													<a href="javascript:void(0)">
+														<img src="assets/extra-images/shop8.jpg" alt="shop" />
+														<h5>Custom spark-plug</h5>
+														<span class="price">
+															<span class="amount">$200.00</span>
+														</span>
+														<div title="Rated 5 out of 5" class="star-rating">
+															<span style="width:66%"><strong class="rating">5</strong> out of 5</span>
+														</div>
+													</a>
+													<div class="product-action-button">
+														<a class="cs-color btn btn-flat button product_type_simple add_to_cart_button ajax_add_to_cart" href="#">
+															<i class="icon-shopping-cart2 cs-bgcolor"></i>
+															Add to cart
+														</a>
+													</div>
+												</li>
+												<li class="product">
+													<a href="javascript:void(0)">
+														<img src="assets/extra-images/shop9.jpg" alt="shop" />
+														<h5>Ninja Rims R20</h5>
+														<span class="price">
+															<span class="amount">$1,500.00</span>
+															<del><span class="amount">$1,750.00</span></del>
+														</span>
+														<div title="Rated 5 out of 5" class="star-rating">
+															<span style="width:66%"><strong class="rating">5</strong> out of 5</span>
+														</div>
+													</a>
+													<div class="product-action-button">
+														<a class="cs-color btn btn-flat button product_type_simple add_to_cart_button ajax_add_to_cart" href="#">
+															<i class="icon-shopping-cart2 cs-bgcolor"></i>
+															Add to cart
+														</a>
+													</div>
+												</li>
+											</ul>
+										</div>
+										<nav>
+										<ul class="pagination">
+											<li>
+												<a href="#" aria-label="Previous"><span aria-hidden="true"><i class="icon-angle-left"></i></span></a>
+											</li>
+											<li><a class="active">1</a></li>
+											<li class="disabled">
+												<a href="#" aria-label="Next">
+												  <span aria-hidden="true"><i class="icon-angle-right"></i></span>
+												</a>
+											  </li>
+										</ul>
+									</nav>
+									</div>
+								 </div>
+							</div>
+						</div>
+						<style>
+							.pagination li.disabled a {
+							pointer-events: none;          
+							cursor: default;          
+							}
+
+							.pagination li.disabled a:hover {
+							background-color: transparent; /* prevent hover effect */
+							color: #ccc; /* stay gray */
+							}
+
+						</style>
+						<aside class="page-sidebar col-lg-3 col-md-3 col-sm-12 col-xs-12">
+							<div class="widget woocommerce widget_product_categories">
+								<h6>Product Categories</h6>
+								<ul>
+									<li class="cat-item cat-item-3 cat-parent">
+										<a href="#">Clothes &amp; Footwear <span>(17)</span></a>
+										<ul class="children">
+											<li><a href="#">Footwear <span>(3)</span></a></li>
+											<li><a href="#">Hoodies <span>(7)</span></a></li>
+											<li><a href="#">T-shirts <span>(7)</span></a></li>
+										</ul>
+										<li><a href="#">Digital goods <span>(3)</span></a></li>
+									</li>
+								</ul>
+							</div>
+							<div class="widget woocommerce widget_top_rated_products">
+								<h6>latest Products</h6>
+								<ul class="product_list_widget">
+									<li>
+										<a href="#">
+											<img src="assets/extra-images/Shop-widget1.jpg" alt="shop" />
+											<span class="product-title">USB Air Compressor</span>
+										</a>
+										<span class="amount cs-color">$1,200.00</span>
+									</li>
+									<li>
+										<a href="#">
+											<img src="assets/extra-images/Shop-widget2.jpg" alt="shop" />
+											<span class="product-title">Ninja Sound</span>
+										</a>
+										<span class="amount cs-color">$950.00</span>
+									</li>
+									<li>
+										<a href="#">
+											<img src="assets/extra-images/Shop-widget3.jpg" alt="shop" />
+											<span class="product-title">Car mats for BMW</span>
+										</a>
+										<span class="amount cs-color">$99.00</span>
+										<del><span class="amount" style="
+											color: #999;
+											font-size: 13px;
+											font-weight: 400;
+										">$150.00</span></del>
+									</li>
+								</ul>
+							</div>
+							<div class="widget woocommerce widget_shopping_cart">
+								<h6>Top Rated Products</h6>
+								<div class="widget_shopping_cart_content">
+									<ul class="cart_list product_list_widget">
+										<li class="mini_cart_item">
+											<a href="#">
+												<img alt="shop" src="assets/extra-images/Shop-widget4.jpg">
+												Brembo Sport Brakes
+											</a>
+											<span class="amount">$700.00</span>
+											<div class="star-rating" title="Rated 5 out of 5">
+												<span style="width:66%"><strong class="rating">5</strong> out of 5</span>
+											</div>
+										</li>
+										<li class="mini_cart_item">
+											<a href="#">
+												<img alt="shop" src="assets/extra-images/Shop-widget5.jpg">
+												Custom spark-plug
+											</a>
+											<span class="amount">$200.00</span>
+											<div class="star-rating" title="Rated 5 out of 5">
+												<span style="width:66%"><strong class="rating">5</strong> out of 5</span>
+											</div>
+										</li>
+										<li class="mini_cart_item">
+											<a href="#">
+												<img alt="shop" src="assets/extra-images/Shop-widget6.jpg">
+												Air Filter
+											</a>
+											<span class="amount">$900.00</span>
+											<div class="star-rating" title="Rated 5 out of 5">
+												<span style="width:66%"><strong class="rating">5</strong> out of 5</span>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="widget widget-tags woocommerce">
+								<h6>PRODUCTS TAG</h6>
+								<a href="#">Houses</a>
+								<a href="#">Apartment</a>
+								<a href="#">Rates</a>
+								<a href="#">Commercial</a>
+								<a href="#">Building</a>
+								<a href="#">Rates</a>
+								<a href="#">Flats</a>
+								<a href="#">People</a>
+								<a href="#">United Kingdom</a>
+								<a href="#">Commercial</a>
+								<a href="#">Building</a>
+								<a href="#">Flats</a>
+								<a href="#">Houses</a>
+								<a href="#">Apartment</a>
+								<a href="#">Rates</a>
+								<a href="#">Commercial</a>
+								<a href="#">Building</a>
+								<a href="#">Road</a>
+								<a href="#">Flats</a>
+								<a href="#">People</a>
+								<a href="#">United Kingdom</a>
+								<a href="#">Commercial</a>
+								<a href="#">Building</a>
+							</div>
+						</aside>
+					  </div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="page-section" style="background:#19171a;;">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+		  <div class="cs-ad" style="text-align:center; padding:55px 0 25px;">
+			 <div class="cs-media">
+			   <figure>
+				 <a href="#"><img alt="" src="assets/extra-images/cs-ad-img.jpg"></a>
+			  </figure>
+		</div>
+	</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Main End --> 
+
+
+
+<script>
+	document.addEventListener("DOMContentLoaded", function () {
+	  const addToCartButtons = document.querySelectorAll('.add_to_cart_button');
+	  const popup = document.getElementById('cart-popup');
+	  const closeBtn = document.getElementById('popup-close');
+	  let hideTimeout;
+	
+	  // Load cart from localStorage
+	  let cart = JSON.parse(localStorage.getItem('cart')) || [];
+	
+	  function updateCartIcon() {
+		const uniqueProductCount = cart.length;
+		const cartIcon = document.getElementById('cart-icon');
+		const cartItemCount = document.getElementById('cart-item-count');
+	
+		if (uniqueProductCount > 0) {
+		  cartIcon.style.display = 'block';
+		  cartItemCount.style.display = 'inline-block';
+		  cartItemCount.textContent = uniqueProductCount;
+		} else {
+		  cartIcon.style.display = 'none';
+		  cartItemCount.style.display = 'none';
+		}
+	  }
+	
+	  function showPopup(message, image, isDuplicate = false) {
+		if (!popup) return;
+		popup.querySelector('p').textContent = message;
+		popup.querySelector('#popup-image').src = image;
+		popup.style.display = 'block';
+		popup.classList.add('fade-in');
+	
+		clearTimeout(hideTimeout);
+		if (isDuplicate) {
+		  hideTimeout = setTimeout(() => {
+			popup.style.display = 'none';
+			popup.classList.remove('fade-in');
+		  }, 3000);
+		}
+	  }
+	
+	  addToCartButtons.forEach(button => {
+		button.addEventListener('click', function (e) {
+		  e.preventDefault();
+		  const productCard = button.closest('.product');
+		  const productTitle = productCard.querySelector('h5')?.textContent.trim();
+		  const productImage = productCard.querySelector('img')?.src;
+		  const productPrice = productCard.querySelector('.price .amount')?.textContent.trim() || "Price Not Available";
+	
+		  const alreadyInCart = cart.some(item => item.title === productTitle);
+	
+		  if (alreadyInCart) {
+			showPopup(`"${productTitle}" is already in your cart.`, productImage, true);
+		  } else {
+			const item = { title: productTitle, image: productImage, price: productPrice };
+			cart.push(item);
+			localStorage.setItem('cart', JSON.stringify(cart));
+			showPopup(`Added "${productTitle}" to cart!`, productImage, false);
+			updateCartIcon();
+		  }
+		});
+	  });
+	
+	  if (closeBtn) {
+		closeBtn.addEventListener('click', function () {
+		  popup.style.display = 'none';
+		  popup.classList.remove('fade-in');
+		  clearTimeout(hideTimeout);
+		});
+	  }
+	
+	  if (popup) {
+		popup.addEventListener('mouseenter', function () {
+		  clearTimeout(hideTimeout);
+		});
+	
+		popup.addEventListener('mouseleave', function () {
+		  if (popup.querySelector('p').textContent.includes('already in your cart')) {
+			hideTimeout = setTimeout(() => {
+			  popup.style.display = 'none';
+			  popup.classList.remove('fade-in');
+			}, 2000);
+		  }
+		});
+	  }
+	
+	  // Initialize cart icon on page load
+	  updateCartIcon();
+	});
+	</script>
+	
+
+<style>
+	.cart-badge {
+	background-color: #d00000;
+	}
+	#cart-popup p {
+	margin: 0 0 10px;
+	font-weight: bold;
+	}
+
+	#cart-popup .popup-btn {
+	background-color: #d00000;
+	color: white;
+	padding: 5px 10px;
+	text-decoration: none;
+	border-radius: 5px;
+	display: inline-block;
+	transition: background-color 0.3s ease;
+	font-weight: 600;
+	font-size: 14px;
+	}
+
+	#cart-popup .popup-btn:hover {
+	background-color: #a30000;
+	color: white;
+	text-decoration: none;
+	}
+
+	.product h5 {
+	transition: color 0.3s ease!important;
+	}
+
+	.product h5:hover {
+	color: #d00000!important; /* Bootstrap blue, or choose your own */
+	}
+
+	.product-action-button a {
+	transition: background-color 0.3s ease, color 0.3s ease!important;
+	}
+
+	.product-action-button a:hover {
+	background-color: #d00000!important; /* blue on hover */
+	color: #fff!important;
+	}
+
+  </style>
+  <style>
+	#cart-popup {
+	  opacity: 0;
+	  transition: opacity 0.5s ease;
+	}
+	
+	#cart-popup.fade-in {
+	  opacity: 1;
+	}
+	</style>
+
+
+<script>
+	document.addEventListener("DOMContentLoaded", function () {
+	  let cart = JSON.parse(localStorage.getItem('cart')) || [];
+	
+	  // Render toast for all product styles
+	  function renderCartToasts() {
+		// For .auto-listing style
+		document.querySelectorAll('.auto-listing').forEach(function (listing) {
+		  const media = listing.querySelector('figure');
+		  const title = listing.querySelector('.post-title h6 a')?.textContent.trim();
+		  if (!media || !title) return;
+	
+		  const existingToast = media.querySelector('.toast-message');
+		  if (existingToast) existingToast.remove();
+	
+		  if (cart.some(item => item.title === title)) {
+			const toast = document.createElement('a');
+			toast.classList.add('toast-message');
+			toast.href = "shop-cart.html";
+			toast.innerHTML = '<i class="icon-check_circle"></i> Added to cart!';
+			media.appendChild(toast);
+		  }
+		});
+	
+		// For .product style
+		document.querySelectorAll('.product').forEach(function (product) {
+		  const imageWrapper = product.querySelector('a');
+		  const title = product.querySelector('h5')?.textContent.trim();
+		  if (!imageWrapper || !title) return;
+	
+		  const existingToast = product.querySelector('.toast-message');
+		  if (existingToast) existingToast.remove();
+	
+		  if (cart.some(item => item.title === title)) {
+			const toast = document.createElement('a');
+			toast.classList.add('toast-message');
+			toast.href = "shop-cart.html";
+			toast.innerHTML = '<i class="icon-check_circle"></i> Added to cart!';
+			imageWrapper.appendChild(toast);
+		  }
+		});
+	  }
+	
+	  // Run on load
+	  renderCartToasts();
+	
+	  // Add to cart handler for both styles
+	  document.querySelectorAll('.add_to_cart_button, .add-to-cart').forEach(function (button) {
+		button.addEventListener('click', function (e) {
+		  e.preventDefault();
+		  const listing = button.closest('.auto-listing') || button.closest('.product');
+		  if (!listing) return;
+	
+		  const title = listing.querySelector('.post-title h6 a, h5')?.textContent.trim();
+		  const image = listing.querySelector('img')?.src;
+		  const price = listing.querySelector('.auto-price .cs-color, .price .amount')?.textContent.trim() || "Price Not Available";
+	
+		  if (!title || cart.some(item => item.title === title)) {
+			renderCartToasts();
+			return;
+		  }
+	
+		  cart.push({ title, image, price });
+		  localStorage.setItem('cart', JSON.stringify(cart));
+		  renderCartToasts();
+		});
+	  });
+	});
+	</script>
+	
+
+	<style>
+		.cs-media figure {
+		  position: relative;
+		}
+		
+		.toast-message {
+		  position: absolute;
+		  top: 10px;
+		  right: 10px;
+		  background-color: #6fba17;
+		  font-size: 9px;
+		  color: #fff;
+		  text-transform: uppercase;
+		  text-decoration: none;
+		  border-radius: 20px;
+		  line-height: 14px;
+		  padding: 4px 8px;
+		  font-weight: 700;
+		  z-index: 10;
+		  opacity: 1;
+		}
+		.toast-message:hover {
+			color: #000000;
+			background-color: #6fba17;
+		}
+		
+		.toast-message i {
+		  margin-right: 5px;
+		}
+		
+		@keyframes fadeOut {
+		  0% { opacity: 1; }
+		  70% { opacity: 1; }
+		  100% { opacity: 0; transform: translateY(-5px); }
+		}
+		.woocommerce ul.products li.product a img {
+			cursor: auto;
+		}
+		.woocommerce ul.products li.product .price {
+			cursor: auto;
+		}
+		.woocommerce ul.products li.product .star-rating {
+			cursor: auto;
+		}
+		</style>
+		
+
+
+		<script>
+			document.addEventListener("DOMContentLoaded", function () {
+			  document.querySelectorAll('.product h5').forEach(function (heading) {
+				heading.addEventListener('click', function (e) {
+				  e.preventDefault();
+		  
+				  const product = heading.closest('.product');
+				  if (!product) return;
+		  
+				  const title = product.querySelector('h5')?.textContent.trim();
+				  const image = product.querySelector('img')?.src;
+				  const price = product.querySelector('.amount')?.textContent.trim();
+		  
+				  if (title && image && price) {
+					const selectedProduct = { title, image, price };
+					localStorage.setItem('selectedProduct', JSON.stringify(selectedProduct));
+				  }
+		  
+				  window.location.href = "shop-detail.html";
+				});
+			  });
+			});
+		  </script>
+		  
+			
+
+
+
+
+ <link rel="stylesheet" href="assets/css/all.min.css">
+ <!-- Cart Icon -->
+ <div id="cart-icon" class="cart-icon">
+   <i class="fas fa-shopping-cart cs-color"></i>
+   <span id="cart-item-count" class="cart-item-count"></span>
+ </div>
+
+<style>
+	.woocommerce {
+    margin-bottom: 0px;
+}
+/* Cart Icon Styling */
+.cart-icon {
+position: fixed;
+bottom: 20px;
+left: 20px; /* Change to right: 20px to move to the bottom-right */
+display: none;
+background-color: #f1f1f1;
+border-radius: 50%;
+padding: 15px;
+box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+cursor: pointer;
+}
+
+.cart-icon img {
+width: 40px;
+height: 40px;
+}
+
+.cart-item-count {
+position: absolute;
+top: -5px;
+right: -5px;
+background-color: red;
+color: white;
+font-size: 12px;
+padding: 5px;
+border-radius: 50%;
+display: none; /* Hide by default */
+}
+
+</style>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+var cartIcon = document.getElementById('cart-icon');
+var cartItemCount = document.getElementById('cart-item-count');
+
+// Get cart from localStorage
+var cart = JSON.parse(localStorage.getItem('cart')) || [];
+
+// Function to update the cart icon
+function updateCartIcon() {
+// Count unique products in the cart
+var uniqueProductCount = cart.length; // Count unique items in the cart
+
+if (uniqueProductCount > 0) {
+cartIcon.style.display = 'block'; // Show the cart icon if there are any products
+cartItemCount.style.display = 'inline-block'; // Show the item count
+cartItemCount.textContent = uniqueProductCount; // Update item count to show number of unique products
+} else {
+cartIcon.style.display = 'none'; // Hide the cart icon if no products are in the cart
+}
+}
+
+// Initial update of the cart icon
+updateCartIcon();
+
+// Listen for changes in the cart (this assumes the cart updates are already handled, such as adding or removing items)
+window.addEventListener('storage', function() {
+// Get the updated cart data after changes
+cart = JSON.parse(localStorage.getItem('cart')) || [];
+updateCartIcon(); // Recalculate and update cart icon
+});
+
+// Optionally, you can add a click event to the cart icon to navigate to the cart page
+cartIcon.addEventListener('click', function() {
+window.location.href = 'shop-cart.html'; 
+});
+});
+
+
+</script> 
+	<!-- Footer Start -->
+	<footer id="footer" style="background:#19171a;padding:32px 0 0">
+		<div class="cs-footer-widgets">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+						<div class="widget widget-our-partners">
+							<div class="widget-section-title">
+								<h6 style="color:#fff !important">Our Partners</h6>
+							</div>
+							<ul>
+								<li><a href="#">Apartments.com</a></li>
+								<li><a href="#">CareerBuilder.com</a></li>
+								<li><a href="#">Cars.com</a></li>
+								<li><a href="#">HomeFinder.com</a></li>
+								<li><a href="#">Detroit Newspapers in Education</a></li>
+								<li><a href="#">Michigan.com</a></li>
+								<li><a href="#">MovingCompanyReviews.com</a></li>
+								<li><a href="#">Find & Save</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+						<div class="widget widget-categores">
+							<div class="widget-section-title">
+								<h6 style="color:#fff !important">Top Categores</h6>
+							</div>
+							<ul>
+								<li><a href="#">All Toyota Vehicles</a></li>
+								<li><a href="#">SUVs</a></li>
+								<li><a href="#">Trucks</a></li>
+								<li><a href="#">Cars</a></li>
+								<li><a href="#">Crossovers</a></li>
+								<li><a href="#">Hybrids</a></li>
+								<li><a href="#">Hybrid Cars</a></li>
+								<li><a href="#">Hybrid SUVs</a></li>
+								<li><a href="#">Concept Vehicles</a></li>
+								<li><a href="#">TRD Pro Series</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+						<div class="widget widget-about-us">
+							<div class="widget-section-title">
+								<h6 style="color:#fff !important">About Us</h6>
+							</div>
+							<ul>
+								<li><a href="#">Shopping Tools</a></li>
+								<li><a href="#">Trade-In Value</a></li>
+								<li><a href="#">Customize Your Own Toyota</a></li>
+								<li><a href="#">Search Inventory</a></li>
+								<li><a href="#">Find a Dealer</a></li>
+								<li><a href="#">Local Specials</a></li>
+								<li><a href="#">Request a Quote</a></li>
+								<li><a href="#">Accessories</a></li>
+								<li><a href="#">Find Your Match</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+						<div class="widget widget-news-letter">
+							<div class="widget-section-title">
+								<h6 style="color:#fff !important">SIGN UP FOR TOYOTA UPDATES</h6>
+							</div>
+							<p>Recently received some brochures from my traders  here are some that might be of interest. </p>
+							<div class="cs-form">
+								<form>
+									<div class="input-holder">
+										<input type="email" placeholder="Enter Valid Email Address">
+										<label> <i class="icon-send2"></i>
+											<input class="cs-bgcolor" type="submit" value="submit">
+										</label>
+									</div>
+								</form>
+							</div>
+							<div class="cs-social-media">
+								<ul>
+									<li><a href="#" data-original-title="facebook"><i class="icon-facebook-f"></i></a></li>
+									<li><a href="#" data-original-title="twitter"><i class="icon-twitter4"></i></a></li>
+									<li><a href="#" data-original-title="linkedin"><i class="icon-linkedin22"></i></a></li>
+									<li><a href="#" data-original-title="google"><i class="icon-google-plus"></i></a></li>
+									<li><a href="#" data-original-title="rss"><i class="icon-rss"></i></a></li>
+									<li><a href="#" data-original-title="vimeo"><i class="icon-vimeo"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="cs-copyright" style="background:#141215; padding-top:37px; padding-bottom:37px;">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+						<div class="copyright-text">
+							<p>Created by <a href="https://ayodev.io" class="cs-color"> Opeola Ayo</a> Software Developer</p>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+						<div class="cs-back-to-top">
+							<address>
+							<i class="icon-phone"></i> <a href="#">+0 (123) 456-789-10</a>
+							</address>
+							<a class="btn-to-top cs-bgcolor" href="#"><i class="icon-keyboard_arrow_up"></i></a> </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- Footer End --> 
+</div>
+<script src="assets/scripts/responsive.menu.js"></script> 
+<script src="assets/scripts/chosen.select.js"></script> 
+<script src="assets/scripts/slick.js"></script> 
+<script src="assets/scripts/echo.js"></script> 
+<!-- Put all Functions in functions.js --> 
+<script src="assets/scripts/functions.js"></script>
+</body>
+
+</html>
